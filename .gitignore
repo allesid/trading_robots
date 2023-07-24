@@ -1,16 +1,60 @@
 */results/*
-rl/Network4RL/Network4RL.vcxproj
-rl/Network4RL/Network4RL.vcxproj.filters
-rl/Network4RL/Network4RL.vcxproj.user
+*.vcxproj*
 rl/Network4RL/x64/
-rl/lua-c-dll/.gitattributes
-rl/lua-c-dll/.gitignore
 rl/lua-c-dll/.vs/
-rl/lua-c-dll/README.md
 rl/lua-c-dll/contrib/
 rl/lua-c-dll/lua-sample/
-rl/lua-c-dll/luacdll.vcxproj
-rl/lua-c-dll/luacdll.vcxproj.filters
 rl/lua-c-dll/make-arc.cmd
-rl/lua-c-dll/src/"rl/lua-c-dll/320\222\320\267\320\260\320\270\320\274\320\276\320\264\320\265\320\271\321\201\321\202\320\262\320\270\320\265.txt"
+.gitignore
+#
+*.zip
+*.7z
+.bin
+.tmp
+.Build
 
+#VS temp files
+*.suo
+*.idb
+*.pdb
+*.exp
+*.VC.db
+*.vcxproj.user
+*.sln
+*.recipe
+*.iobj
+*.log
+*.tlog
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
