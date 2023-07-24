@@ -38,7 +38,7 @@ FIRM_ID="MC0094600000"
 -- CLIENT_CODE = "65425"          -- код клиента
 -- FIRM_ID="MC0094600000"
 
-path_name = "C:/QuikKITFinance/data/GLAS/GLASS-res/"
+path_name = "C:/Projects/trading_robots/glass/results/"
 qsummax = 20
 dpart = 5 --коэффициент превышения суммы объема бид и оффер для сделки открытия позиции
 -- например: сумма бидов умноженная на dpart > суммы офферов - покупка

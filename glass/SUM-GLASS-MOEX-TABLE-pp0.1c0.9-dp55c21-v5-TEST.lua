@@ -17,7 +17,7 @@ CLASS="TQBR"
 
 -- CLASS="CETS_MTL"
 
-path_name = "C:/QuikKITFinance/data/GLAS/GLASS-res/"
+path_name = "C:/Projects/trading_robots/glass/results/"
 qsummax = 20
 
 price_part = 0.1 -- цена выставления ордера между средним (бид и оффер) и бид/оффер макс в интервале [0.0-1.0]

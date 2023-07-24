@@ -39,7 +39,7 @@ FIRM_ID="MC0094600000"
 -- FIRM_ID="MC0094600000"
 
 dub_up = 0  -- if dub_up==0 => only UP; if dub_up==1 => Dub (or UP and DOWN) direction
-path_name = "C:/QuikKITFinance/data/GLAS/GLASS-res/"
+path_name = "C:/Projects/trading_robots/glass/results/"
 qsummax = 20
 dpart = 8 --коэффициент превышения суммы объема бид и оффер для сделки открытия позиции
 -- например: сумма бидов умноженная на dpart > суммы офферов - покупка
