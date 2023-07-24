@@ -557,6 +557,13 @@ end
 function prints(sec_list, last_dealc)
 	filer2=io.open(data_file_name, "w")
 	for i, SEC in pairs(sec_list) do
+		filer2:write("sec_"..SEC)
+		filer2:write(" ld_"..last_dealc[SEC][1])
+		filer2:write(" res_"..last_dealc[SEC][2])
+		filer2:write(" pos_"..last_dealc[SEC][3])
+		filer2:write(" pospct_"..last_dealc[SEC][4])
+		filer2:write(" prc_"..last_dealc[SEC][5])
+		filer2:write('\n')
 		if math.abs(last_dealc[SEC][4]) > 100 then
 			message("=== Error prints math.abs(last_deal[SEC][4]) > 100 ===", 1)
 			message(SEC, 1)
@@ -568,13 +575,6 @@ function prints(sec_list, last_dealc)
 			message("last_deal[SEC][5]="..last_dealc[SEC][5], 1)
 			message("last_deal[SEC][6]="..last_dealc[SEC][6], 1)
 		end
-		filer2:write("sec_"..SEC)
-		filer2:write(" ld_"..last_dealc[SEC][1])
-		filer2:write(" res_"..last_dealc[SEC][2])
-		filer2:write(" pos_"..last_dealc[SEC][3])
-		filer2:write(" pospct_"..last_dealc[SEC][4])
-		filer2:write(" prc_"..last_dealc[SEC][5])
-		filer2:write('\n')
 	end
 	filer2:close()
 end
