@@ -1,0 +1,146 @@
+Здраствуйте многоуважаемые форумчане, помогите мне пожалуйста одолеть такую программу:
+Есть программка, называеца Tuner tools, которая играет ноты, для того чтоб настраивать гитару, задача очень проста, нужно чтоб разрабатываемая мной программа в 15:00 нажала первую кнопку, а в 15:10 поставила галочку "loop" и нажала вторую кнопку, если не сложно помогите пожалусто
+FindWindow, FindWindowEx, SendMessage тебе в помощь
+
+
+https://www.cyberforum.ru/cpp-builder/thread318183.html
+
+
+https://www.cyberforum.ru/cpp-beginners/thread279745.html#post1569214
+
+
+https://www.cyberforum.ru/cpp-builder/thread318183.html
+SendMessage(), Sleep() это WinAPI функции, по идее, в билдере без изменений (убедитесь, что есть #include <windows.h>). Почитайте в MSDN, что конкретно они делают.
+это намного проще сделать в AutoIt.
+
+
+https://www.cyberforum.ru/cpp/thread30155.html
+FindWindow, FindWindowEx, SendMessage тебе в помощь
+
+
+https://www.cyberforum.ru/cpp-cli-winforms/thread345093.html
+private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e) {
+            HWND Window_Samp = FindWindow(L"TfmMain",NULL);
+            if(!Window_Samp){
+                WinExec("D:\\GTA San Andreas\\samp.exe", SW_NORMAL);
+                Window_Samp = FindWindow(L"TfmMain",NULL);
+                if(!Window_Samp){// даже после попытки запуска не было обнаружено окно :(
+                    
+                }
+            }
+            if(Window_Samp){
+                SetWindowText(Window_Samp, L"SA Multiplayer 0.3c - Modifier");
+                HWND Window_Properties = FindWindow(L"TfmServerProperties",NULL);
+                                
+                if(Window_Properties){
+                    SetWindowText(Window_Properties, L"Информация о сервере (Modifier)");
+                    HWND Window_Ip = FindWindowEx(Window_Properties,NULL,L"TEdit",NULL);
+                    LPWSTR pszText;GetWindowText(Window_Ip, pszText, 255);
+ 
+                }
+            }
+        }
+		
+		
+https://www.cyberforum.ru/cpp-builder/thread229437.html
+Есть сторонняя программа, в окне которой размещены различные элементы, которыми нужно управлять.
+Например ComboBox. Необходимо менять значения этих элементов управления, выбирать вариант из списка ComboBox.
+Как это лучше сделать?
+
+Есть вариант перемещением курсора и кликом на мышке (эмуляция)
+но криво работает C++:
+double qqq (double tbprice)
+{
+ClickPos (50,30);
+ClickPos (140,140);
+ClickPos (141,155);
+ClickPos(860,370);keybd_event(VK_UP, 0, 0, 0);
+ClickPos (220,140);
+keybd_event(VK_DOWN, 0, 0, 0);
+Sleep(20);
+keybd_event(VK_DOWN, 0, 0, 0);
+ClickPos (220,180);
+double qqq=11;
+return qqq;
+}
+Функция клика
+void ClickPos (int x, int y)
+{
+SetCursorPos(x,y);
+mouse_event(MOUSEEVENTF_LEFTDOWN,0,0,0,0); // нажали левую кнопку мыши
+Sleep(30);
+mouse_event(MOUSEEVENTF_LEFTUP,0,0,0,0); // отпустили левую кнопку мыши ( НЕ ЗАБЫВАТЬ )
+}
+Можно ли управлять чужим окном, зная класс и имя элемента управления - ComboBox?
+Как это сделать?
+Если невозможно, то как правильно написать код, чтобы мышкой в комбобоксах выбирались значения, если допустить момент то, что расположение на окне известны?
+
+pusnet, вам необходимо выполнить поиск окна. В случае успешного завершения и существования окна вы получите необходимый дескриптор, используя который можно выполнить перебор дочерних элементов, а затем выполнить отправку сообщения.
+Простенький пример C++:
+
+HWND hWnd = FindWindow(NULL, L"Form1");
+if (hWnd) {
+  hWnd = FindWindowEx(hWnd, NULL, L"TComboBox", NULL);
+  if (hWnd) {
+    PostMessage(hWnd,WM_LBUTTONDOWN,NULL,NULL);
+    PostMessage(hWnd,WM_LBUTTONUP,NULL,NULL);
+    Application->ProcessMessages();
+    Sleep(350);
+    PostMessage(hWnd,WM_KEYDOWN,VK_DOWN,1);
+    PostMessage(hWnd,WM_KEYUP,VK_DOWN,1);
+    Application->ProcessMessages();
+    Sleep(350);
+    PostMessage(hWnd,WM_KEYDOWN,VK_DOWN,1);
+    PostMessage(hWnd,WM_KEYUP,VK_DOWN,1);
+  }
+}		
+
+
+https://www.cyberforum.ru/cpp-builder/thread807714.html
+
+Имею следующую задачу. Необходимо запустить внешнюю программу и с определённой частотой нажимать в ней на кнопку. Подскажите пожалуйста, можно ли данный процесс азапустить выполняться автоматически?
+Из прочтения тем на форуме стало понятно, что запускать можно. Запуск внешнего приложения https://www.cyberforum.ru/cpp-builder/thread237383.html По поводу возможности нажатия на кнопки нашёл пока только это http://cppbuilder.ru/articles/0193.php . Скажите пожалуйста, значит ли это, что для того, чтобы эмулировать нажатие клавиши в другой программе необходимо знать нэнддл кнопки? Если да, то как его можно узнать?
+
+Давным давно мне надоело вводить логин и пароль в радмин, и написал некую прогу, которая открывала радмин и заполняла логин и пароль и нажимала кнопку соединение.
+Делал так!
+находим окно которое нам нужно, тоесть ниже в таймере я ождаю окно у которого будет название ("Система безопасности Radmin: " +tr2).c_str()
+C++Выделить код
+HWND SubjectWindow = FindWindowA(NULL,("Система безопасности Radmin: " +tr2).c_str());
+Потом беру по очереди в этом окне заполняю элементы
+//тоесть ниже подставляю в каком окне искать элемент с классом edit
+C++Выделить код
+HANDLE hwnd=FindWindowEx(SubjectWindow, NULL, "Edit", NULL);
+//это чтото типа последовательного перехода от текущего элемента
+Затем найдя заполнял
+C++Выделить код
+ int nb;
+for(int i=1; i<=login.Length(); i++)
+{
+nb= login[i];
+SendMessage(hwnd, WM_CHAR, nb , 0);
+ //StrPoisk->Text=StrPoisk->Text+IntToStr(nb);
+}
+а после переходил в другой элемент
+C++Выделить код
+HANDLE hwnd=FindWindowEx(SubjectWindow, NULL, "Edit", NULL);
+//это чтото типа последовательного перехода от текущего элемента
+и также его заполнял, а потом переходил на кнопку и нажимал enter
+C++Выделить код
+HANDLE hwnd3=FindWindowEx(SubjectWindow, hwnd2, "Button", NULL);
+ 
+  PostMessage(hwnd3,WM_KEYDOWN,VK_RETURN,0);
+  PostMessage(hwnd3,WM_KEYUP,VK_RETURN,0);
+
+поиск рулит! )
+Нажатие кнопки в другом окне https://www.cyberforum.ru/cpp-builder/thread797669.html
+Доступ к компонентам внешней программы https://www.cyberforum.ru/cpp-builder/thread796706.html
+
+Мечты вуайериста - чужие окна http://www.delphisources.ru/pages/faq/base/other_windows.html
+Мечты вуайериста - чужие окна 2 http://www.delphisources.ru/pages/faq/base/other_windows2.html
+
+Идете сюда:
+Библиотека VCL и сопутствующие материалы https://www.cyberforum.ru/cpp-builder/thread171431.html
+Читаете про "мечты вуайериста".
+
+
+https://ru.stackoverflow.com/questions/491824/%D0%9A%D0%B0%D0%BA-%D0%BB%D1%83%D1%87%D1%88%D0%B5-%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%8C-%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%D0%BC%D0%B8

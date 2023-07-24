@@ -1,5 +1,4 @@
 */results/*
-*.vcxproj*
 rl/Network4RL/x64/
 rl/lua-c-dll/.vs/
 rl/lua-c-dll/contrib/
