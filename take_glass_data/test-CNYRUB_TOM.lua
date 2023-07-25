@@ -11,7 +11,7 @@ vers = "1"
 
 function OnInit(s)
 	dt = getTradeDate().date
-    filer=io.open("C:/QuikKITFinance/data/Test-1/test-"..SEC.."-"..vers.."-"..dt..".csv", "w")
+    filer=io.open("C:/Projects/trading_robots/take_glass_data/test-"..SEC.."-"..vers.."-"..dt..".csv", "w")
 	
 end
 --  ============================================
@@ -73,11 +73,7 @@ function OnQuote(class_code, sec_code)
     filer:write(tonumber(qt.offer[1+i].price).." "..tonumber(qt.offer[1+i].quantity).." ")
 	end
 
-	cls = ds:C(ds:Size())
-	vol = ds:V(ds:Size())
-	-- tm = getInfoParam("LOCALTIME")
-	tm=os.sysdate().hour*10000+os.sysdate().min*100+os.sysdate().sec
-    filer:write(tostring(cls).." "..tostring(vol).." "..tostring(tm), '\n')
+    filer:write(tostring(ds:C(ds:Size())).." "..tostring(ds:V(ds:Size())).." "..tostring(os.sysdate().hour*10000+os.sysdate().min*100+os.sysdate().sec), '\n')
 end
 --  ============================================
 
