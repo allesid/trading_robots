@@ -463,7 +463,7 @@ function position_up(SEC, last_dealu)
 			message("last_deald[SEC][6]="..last_deal[SEC][6], 1)
 
 			eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
-			efilename = path_name.."error-GLASS-"..end_of_name
+			efilename = path_name.."error-GLASS-"..eon
 			filer_err=io.open(efilename, "a")
 			filer_err:write("=== position_up ===", '\n')
 			filer_err:write(SEC, '\n')
@@ -510,9 +510,9 @@ function position_dn(SEC, last_deald)
 			message("last_deal[SEC][6]="..last_deal[SEC][6], 1)
 			
 			eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
-			efilename = path_name.."error-GLASS-"..end_of_name
+			efilename = path_name.."error-GLASS-"..eon
 			filer_err=io.open(efilename, "a")
-			filer_err:write("=== position_up ===", '\n')
+			filer_err:write("=== position_dn ===", '\n')
 			filer_err:write(SEC, '\n')
 			filer_err:write("res="..res, '\n')
 			filer_err:write("sec_"..SEC)

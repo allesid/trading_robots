@@ -436,18 +436,18 @@ function position_up(SEC, last_deald)
 	if last_deald[SEC][1] < 0  then
 		res = last_deald[SEC][3]+(last_deald[SEC][1])*offS-math.abs(last_deald[SEC][1])*comis*offS
 		if math.abs(res) > offS then
-			message("=== position_up1 ===", 1)
-			message(SEC, 1)
-			message("res="..res, 1)
-			message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
-			message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
-			message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
-			message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
-			message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
-			message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+			-- message("=== position_up1 ===", 1)
+			-- message(SEC, 1)
+			-- message("res="..res, 1)
+			-- message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
+			-- message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
+			-- message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
+			-- message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
+			-- message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
+			-- message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
 
 			eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
-			efilename = path_name.."error-GLASS-"..end_of_name
+			efilename = path_name.."error-GLASS-"..eon
 			filer_err=io.open(efilename, "a")
 			filer_err:write("=== position_up1 ===", '\n')
 			filer_err:write(SEC, '\n')
@@ -473,20 +473,20 @@ function position_up(SEC, last_deald)
 	last_deald[SEC][3]=last_deald[SEC][3]-(ld-last_deald[SEC][1])*offS-math.abs(ld-last_deald[SEC][1])*comis*offS
 	last_deald[SEC][1] = ld
 	if last_deald[SEC][1] ~= 0 and last_deald[SEC][5] == 0. then
-		message("=== position_up2 ===", 1)
-		message(SEC, 1)
-		message("res="..res, 1)
-		message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
-		message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
-		message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
-		message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
-		message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
-		message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+		-- message("=== position_up2 ===", 1)
+		-- message(SEC, 1)
+		-- message("res="..res, 1)
+		-- message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
+		-- message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
+		-- message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
+		-- message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
+		-- message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
+		-- message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
 
 			eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
-			efilename = path_name.."error-GLASS-"..end_of_name
+			efilename = path_name.."error-GLASS-"..eon
 			filer_err=io.open(efilename, "a")
-			filer_err:write("=== position_up1 ===", '\n')
+			filer_err:write("=== position_up2 ===", '\n')
 			filer_err:write(SEC, '\n')
 			filer_err:write("res="..res, '\n')
 			filer_err:write("sec_"..SEC)
@@ -506,20 +506,20 @@ function position_dn(SEC, last_deald)
 	if last_deald[SEC][1] > 0 then
 		res = last_deald[SEC][3]+(last_deald[SEC][1])*bidS-math.abs(last_deald[SEC][1])*comis*bidS
 		if math.abs(res) > bidS then
-			message("=== position_down1 ===", 1)
-			message(SEC, 1)
-			message("res="..res, 1)
-			message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
-			message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
-			message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
-			message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
-			message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
-			message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+			-- message("=== position_down1 ===", 1)
+			-- message(SEC, 1)
+			-- message("res="..res, 1)
+			-- message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
+			-- message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
+			-- message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
+			-- message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
+			-- message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
+			-- message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
 
 			eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
-			efilename = path_name.."error-GLASS-"..end_of_name
+			efilename = path_name.."error-GLASS-"..eon
 			filer_err=io.open(efilename, "a")
-			filer_err:write("=== position_up1 ===", '\n')
+			filer_err:write("=== position_down1 ===", '\n')
 			filer_err:write(SEC, '\n')
 			filer_err:write("res="..res, '\n')
 			filer_err:write("sec_"..SEC)
@@ -543,20 +543,20 @@ function position_dn(SEC, last_deald)
 	last_deald[SEC][3]=last_deald[SEC][3]-(ld-last_deald[SEC][1])*bidS-math.abs(ld-last_deald[SEC][1])*comis*bidS
 	last_deald[SEC][1] = ld
 	if last_deald[SEC][1] ~= 0 and last_deald[SEC][5] == 0. then
-		message("=== position_dn2 ===", 1)
-		message(SEC, 1)
-		message("res="..res, 1)
-		message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
-		message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
-		message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
-		message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
-		message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
-		message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+		-- message("=== position_down2 ===", 1)
+		-- message(SEC, 1)
+		-- message("res="..res, 1)
+		-- message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
+		-- message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
+		-- message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
+		-- message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
+		-- message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
+		-- message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
 
 			eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
-			efilename = path_name.."error-GLASS-"..end_of_name
+			efilename = path_name.."error-GLASS-"..eon
 			filer_err=io.open(efilename, "a")
-			filer_err:write("=== position_up1 ===", '\n')
+			filer_err:write("=== position_down2 ===", '\n')
 			filer_err:write(SEC, '\n')
 			filer_err:write("res="..res, '\n')
 			filer_err:write("sec_"..SEC)
