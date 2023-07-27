@@ -452,76 +452,202 @@ function last_deal_aver(last_deal, tb_res, last_row)
 	SetCell(tb_res, last_row, 8, string.format("%.2f", lds))
 end
 --  ============================================
-function position_up(SEC, last_dealu)
-	local last_deal = last_dealu
-		if last_deal[SEC][1] < 0  then
-			res = last_deal[SEC][3]+(last_deal[SEC][1])*last_deal[SEC][6]-math.abs(last_deal[SEC][1])*comis*last_deal[SEC][6]
-			last_deal[SEC][4] = last_deal[SEC][4] + (res - last_deal[SEC][2])*100/math.abs(last_deal[SEC][5])
-			last_deal[SEC][2] = res
-			ld = 0
-			last_deal[SEC][5] = 0
-		elseif last_deal[SEC][1] == 0 then
-			last_deal[SEC][5] = last_deal[SEC][6]
-			ld = 1
-		else
-			ld = last_deal[SEC][1]
+function position_up(SEC, last_deald)
+	offS = math.abs(last_deald[SEC][6])
+	if last_deald[SEC][1] < 0  then
+		res = last_deald[SEC][3]+(last_deald[SEC][1])*offS-math.abs(last_deald[SEC][1])*comis*offS
+		if math.abs(res) > offS then
+			-- message("=== position_up1 ===", 1)
+			-- message(SEC, 1)
+			-- message("res="..res, 1)
+			-- message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
+			-- message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
+			-- message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
+			-- message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
+			-- message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
+			-- message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+
+			eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
+			efilename = path_name.."error-GLASS-"..eon
+			filer_err=io.open(efilename, "a")
+			filer_err:write("=== position_up1 ==="..eon, '\n')
+			filer_err:write(SEC, '\n')
+			filer_err:write("res="..res, '\n')
+			filer_err:write("sec_"..SEC)
+			filer_err:write(" ld_"..last_deald[SEC][1])
+			filer_err:write(" res_"..last_deald[SEC][2])
+			filer_err:write(" pos_"..last_deald[SEC][3])
+			filer_err:write(" pospct_"..last_deald[SEC][4])
+			filer_err:write(" prc_"..last_deald[SEC][5])
+			filer_err:write('\n')
+			filer_err:close()
 		end
-		last_deal[SEC][3]=last_deal[SEC][3]-(ld-last_deal[SEC][1])*last_deal[SEC][6]-math.abs(ld-last_deal[SEC][1])*comis*last_deal[SEC][6]
-		last_deal[SEC][1] = ld
-	return last_deal
+
+		last_deald[SEC][4] = last_deald[SEC][4] + (res - last_deald[SEC][2])*100/math.abs(last_deald[SEC][5])
+		last_deald[SEC][2] = res
+		ld = 0
+		last_deald[SEC][5] = 0
+	elseif last_deald[SEC][1] == 0 then
+		last_deald[SEC][5] = last_deald[SEC][6]
+		ld = 1
+	end
+	last_deald[SEC][3]=last_deald[SEC][3]-(ld-last_deald[SEC][1])*offS-math.abs(ld-last_deald[SEC][1])*comis*offS
+	last_deald[SEC][1] = ld
+	if last_deald[SEC][1] ~= 0 and last_deald[SEC][5] == 0. then
+		-- message("=== position_up2 ===", 1)
+		-- message(SEC, 1)
+		-- message("res="..res, 1)
+		-- message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
+		-- message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
+		-- message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
+		-- message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
+		-- message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
+		-- message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+
+			eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
+			efilename = path_name.."error-GLASS-"..eon
+			filer_err=io.open(efilename, "a")
+			filer_err:write("=== position_up2 ==="..eon, '\n')
+			filer_err:write(SEC, '\n')
+			filer_err:write("res="..res, '\n')
+			filer_err:write("sec_"..SEC)
+			filer_err:write(" ld_"..last_deald[SEC][1])
+			filer_err:write(" res_"..last_deald[SEC][2])
+			filer_err:write(" pos_"..last_deald[SEC][3])
+			filer_err:write(" pospct_"..last_deald[SEC][4])
+			filer_err:write(" prc_"..last_deald[SEC][5])
+			filer_err:write('\n')
+			filer_err:close()
+	end
+	return last_deald
 end
 --  ============================================
 function position_dn(SEC, last_deald)
-	local last_deal = last_deald
-	bidS = math.abs(last_deal[SEC][6])
-	if last_deal[SEC][1] > 0 then
-		res = last_deal[SEC][3]+(last_deal[SEC][1])*bidS-math.abs(last_deal[SEC][1])*comis*bidS
-		last_deal[SEC][4] = last_deal[SEC][4] + (res - last_deal[SEC][2])*100/math.abs(last_deal[SEC][5])
-		last_deal[SEC][2] = res
-		ld = 0
-		last_deal[SEC][5] = 0
-	elseif last_deal[SEC][1] == 0 then
-		if dub_up == 1 then
-			ld = -dub_up
-			last_deal[SEC][5] = last_deal[SEC][6]
+	bidS = math.abs(last_deald[SEC][6])
+	if last_deald[SEC][1] > 0 then
+		res = last_deald[SEC][3]+(last_deald[SEC][1])*bidS-math.abs(last_deald[SEC][1])*comis*bidS
+		if math.abs(res) > bidS then
+			-- message("=== position_down1 ===", 1)
+			-- message(SEC, 1)
+			-- message("res="..res, 1)
+			-- message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
+			-- message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
+			-- message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
+			-- message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
+			-- message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
+			-- message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+
+			eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
+			efilename = path_name.."error-GLASS-"..eon
+			filer_err=io.open(efilename, "a")
+			filer_err:write("=== position_down1 ==="..eon, '\n')
+			filer_err:write(SEC, '\n')
+			filer_err:write("res="..res, '\n')
+			filer_err:write("sec_"..SEC)
+			filer_err:write(" ld_"..last_deald[SEC][1])
+			filer_err:write(" res_"..last_deald[SEC][2])
+			filer_err:write(" pos_"..last_deald[SEC][3])
+			filer_err:write(" pospct_"..last_deald[SEC][4])
+			filer_err:write(" prc_"..last_deald[SEC][5])
+			filer_err:write('\n')
+			filer_err:close()
 		end
-	else
-		ld = last_deal[SEC][1]
+
+		last_deald[SEC][4] = last_deald[SEC][4] + (res - last_deald[SEC][2])*100/math.abs(last_deald[SEC][5])
+		last_deald[SEC][2] = res
+		ld = 0
+		last_deald[SEC][5] = 0.
+	elseif last_deald[SEC][1] == 0 then
+			ld = -dub_up
+			last_deald[SEC][5] = last_deald[SEC][6] * dub_up
 	end
-		last_deal[SEC][3]=last_deal[SEC][3]-(ld-last_deal[SEC][1])*bidS-math.abs(ld-last_deal[SEC][1])*comis*bidS
-		last_deal[SEC][1] = ld
-	return last_deal
+	last_deald[SEC][3]=last_deald[SEC][3]-(ld-last_deald[SEC][1])*bidS-math.abs(ld-last_deald[SEC][1])*comis*bidS
+	last_deald[SEC][1] = ld
+	if last_deald[SEC][1] ~= 0 and last_deald[SEC][5] == 0. then
+		-- message("=== position_down2 ===", 1)
+		-- message(SEC, 1)
+		-- message("res="..res, 1)
+		-- message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
+		-- message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
+		-- message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
+		-- message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
+		-- message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
+		-- message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+
+			eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
+			efilename = path_name.."error-GLASS-"..eon
+			filer_err=io.open(efilename, "a")
+			filer_err:write("=== position_down2 ==="..eon, '\n')
+			filer_err:write(SEC, '\n')
+			filer_err:write("res="..res, '\n')
+			filer_err:write("sec_"..SEC)
+			filer_err:write(" ld_"..last_deald[SEC][1])
+			filer_err:write(" res_"..last_deald[SEC][2])
+			filer_err:write(" pos_"..last_deald[SEC][3])
+			filer_err:write(" pospct_"..last_deald[SEC][4])
+			filer_err:write(" prc_"..last_deald[SEC][5])
+			filer_err:write('\n')
+			filer_err:close()
+	end
+	return last_deald
 end
 --  ============================================
-function set_sell_neg(tb_res, row, SEC, last_deal)
+function set_sell_neg(tb_res, row, SEC, last_deald)
 	-- message(SEC.." "..vers, 1)
 	SetCell(tb_res, row, 8, string.format("%.0f", last_deal[SEC][1]))
 	-- SCALE=getSecurityInfo(CLASS, SEC).scale
 	-- price_format = '%.'..tostring(SCALE)..'f'
 	price_format = '%.2f'
 	qt = getQuoteLevel2(CLASS, SEC)
-	res = last_deal[SEC][2]
-	percent = last_deal[SEC][4]
+	percent = last_deald[SEC][4]
 	if qt and qt.offer and tonumber(qt.offer_count) ~= 0 then
-		if last_deal[SEC][5] < 0 then
+		if last_deald[SEC][1] < 0 then
 			offS = tonumber(qt.offer[1].price)
-			res = last_deal[SEC][3]+(last_deal[SEC][1])*offS-math.abs(last_deal[SEC][1])*comis*offS
-		end
-		if last_deal[SEC][5] > 0 then
+			res = last_deald[SEC][3]+(last_deald[SEC][1])*offS-math.abs(last_deald[SEC][1])*comis*offS
+		elseif last_deald[SEC][1] > 0 then
 			bidS = tonumber(qt.bid[qt.bid_count-0].price)
-			res = last_deal[SEC][3]+(last_deal[SEC][1])*bidS-math.abs(last_deal[SEC][1])*comis*bidS
+			res = last_deald[SEC][3]+(last_deald[SEC][1])*bidS-math.abs(last_deald[SEC][1])*comis*bidS
+		else
+			res = last_deald[SEC][2]
 		end
-	end
-	if last_deal[SEC][5] ~= 0 then
-		percent = last_deal[SEC][4] + (res - last_deal[SEC][2])*100/math.abs(last_deal[SEC][5])
-	end
-	SetCell(tb_res, row, 7, string.format(price_format, percent))
-	if percent > 0 then
-		SetColor(tb_res, row, 7, RGB(160,255,160),RGB(0,0,0), RGB(160,255,160), RGB(0,0,0))
-	elseif percent < 0 then
-		SetColor(tb_res, row, 7, RGB(255,160,160),RGB(0,0,0), RGB(255,160,160), RGB(0,0,0))
-	else
-		SetColor(tb_res, row, 7, RGB(255,255,255), RGB(0,0,0), RGB(255,255,255), RGB(0,0,0))
+		if last_deald[SEC][1] ~= 0 then
+			if math.abs(res - last_deald[SEC][2]) > math.abs(last_deald[SEC][5]) then
+				-- message("=== Error  "..ver.." ===", 1)
+				-- message(SEC, 1)
+				-- message("res="..res, 1)
+				-- message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
+				-- message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
+				-- message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
+				-- message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
+				-- message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
+				-- message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+
+				eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
+				efilename = path_name.."error-GLASS-"..eon
+				filer_err=io.open(efilename, "a")
+				filer_err:write("=== Error  "..eon.." ===", '\n')
+				filer_err:write("=== math.abs(res - last_deald[SEC][2]) > math.abs(last_deald[SEC][5]) ===", '\n')
+				filer_err:write(SEC, '\n')
+				filer_err:write("res="..res, '\n')
+				filer_err:write("sec_"..SEC)
+				filer_err:write(" ld_"..last_deald[SEC][1])
+				filer_err:write(" res_"..last_deald[SEC][2])
+				filer_err:write(" pos_"..last_deald[SEC][3])
+				filer_err:write(" pospct_"..last_deald[SEC][4])
+				filer_err:write(" prc_"..last_deald[SEC][5])
+				filer_err:write('\n')
+				filer_err:close()
+			end
+			percent = last_deald[SEC][4] + (res - last_deald[SEC][2])*100/math.abs(last_deald[SEC][5])
+		end
+		SetCell(tb_res, row, 7, string.format(price_format, percent))
+		if percent > 0 then
+			SetColor(tb_res, row, 7, RGB(160,255,160),RGB(0,0,0), RGB(160,255,160), RGB(0,0,0))
+		elseif percent < 0 then
+			SetColor(tb_res, row, 7, RGB(255,160,160),RGB(0,0,0), RGB(255,160,160), RGB(0,0,0))
+		else
+			SetColor(tb_res, row, 7, RGB(255,255,255), RGB(0,0,0), RGB(255,255,255), RGB(0,0,0))
+		end
 	end
 	return percent
 end

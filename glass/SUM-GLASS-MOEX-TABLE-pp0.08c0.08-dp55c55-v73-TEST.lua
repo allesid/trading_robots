@@ -20,12 +20,12 @@ CLASS="TQBR"
 path_name = "C:/Projects/trading_robots/glass/results/"
 qsummax = 20
 
-price_part = 0.5 -- цена выставления ордера между средним (бид и оффер) и бид/оффер макс в интервале [0.0-1.0]
-price_partc = 0.5 -- то же для сделки закрытия позиции
-dpart = 8 --коэффициент превышения суммы объема бид и оффер для сделки открытия позиции
+price_part = 0.08 -- цена выставления ордера между средним (бид и оффер) и бид/оффер макс в интервале [0.0-1.0]
+price_partc = 0.08 -- то же для сделки закрытия позиции
+dpart = 55 --коэффициент превышения суммы объема бид и оффер для сделки открытия позиции
 -- например: сумма бидов умноженная на dpart > суммы офферов - покупка
-dpartc = 8 -- то же для сделки закрытия позиции
-ver = "v5-TEST" -- "WORK"
+dpartc = 55 -- то же для сделки закрытия позиции
+ver = "v73-TEST" -- "WORK"
 
 --  ========    DATA    ====================
 
@@ -149,7 +149,9 @@ function main()
 -- last_deal[][SEC][3] - position sum
 -- last_deal[][SEC][4] - res percent
 -- last_deal[][SEC][5] - last deal price [+-0]
--- last_deal[][SEC][6] - last order price [+-0]
+-- last_deal[][SEC][6] - last order price [+0]
+-- last_deal[][SEC][7] - last order price [-0]
+
 	filer0=io.open(instr_file_name, "r")
 
 	if filer0 == nil then
@@ -234,6 +236,7 @@ function main()
 				end
 				-- message(SEC, 1)
 				last_deal[i][SEC][6] = 0
+				last_deal[i][SEC][7] = 0
 				str = filer1:read("*l")
 			end
 			message("Load vers: "..tostring(i).." SEC= "..tostring(SEC).." len_SEC= "..tostring(len_SEC), 1)
@@ -252,7 +255,7 @@ tb_res = AllocTable()
 ac_res = AddColumn(tb_res, 1, "SEC", true, QTABLE_CACHED_STRING_TYPE , 8)
 ac_res = AddColumn(tb_res, 2, "CLASS", true, QTABLE_CACHED_STRING_TYPE , 10)
 ac_res = AddColumn(tb_res, 3, "Name", true, QTABLE_CACHED_STRING_TYPE, 17)
-ac_res = AddColumn(tb_res, 4, "spred", true, QTABLE_CACHED_STRING_TYPE, 10)
+ac_res = AddColumn(tb_res, 4, "spread", true, QTABLE_CACHED_STRING_TYPE, 10)
 -- ac_res = AddColumn(tb_res, 4, "ADX_1", true, QTABLE_CACHED_STRING_TYPE, 10)
 -- ac_res = AddColumn(tb_res, 5, "ADX", true, QTABLE_CACHED_STRING_TYPE, 10)
 -- ac_res = AddColumn(tb_res, 6, "Price", true, QTABLE_CACHED_STRING_TYPE, 10)
@@ -359,11 +362,13 @@ CreateWindow(tb_res)
 -- ver
 				qt_bid_sum = 0
 				qt_of_sum = 0
+				mbid_sum = 0
+				moff_sum = 0
 				for i=1,qsummax do 
 					ld_1 = last_deal[i][SEC][1]
-					if last_deal[i][SEC][6] > 0 then
-						if prc_off <= last_deal[i][SEC][6] then
-							if last_deal[i][SEC][1] < 1 then
+					if last_deal[i][SEC][1] < 1 then
+						if last_deal[i][SEC][6] > 0 then
+							if prc_off <= last_deal[i][SEC][6] then
 								SetCell(tb_res, row, 2*i+4, "BUY")
 								-- SetColor(tb_res, row, 2*i+4, RGB(160,255,160),RGB(0,0,0), RGB(160,255,160), RGB(0,0,0))
 								last_deal[i] = position_up(SEC, last_deal[i])
@@ -371,15 +376,16 @@ CreateWindow(tb_res)
 							end
 							last_deal[i][SEC][6] = 0. 
 						end
-					elseif last_deal[i][SEC][6] < 0 then
-						if prc_bid >= -last_deal[i][SEC][6] then
-							if last_deal[i][SEC][1] > -dub_up then
+					end
+					if last_deal[i][SEC][1] > -dub_up then
+						if last_deal[i][SEC][7] < 0 then
+							if prc_bid >= -last_deal[i][SEC][7] then
 								SetCell(tb_res, row, 2*i+4, "SELL")
 								-- SetColor(tb_res, row, 2*i+4, RGB(255,160,160),RGB(0,0,0), RGB(255,160,160), RGB(0,0,0))
 								last_deal[i] = position_dn(SEC, last_deal[i])
 								filer[i]:write(SEC.." SELL: date="..dt.." time="..tm.." res="..last_deal[i][SEC][2].." price="..prc_bid, '\n')
 							end
-							last_deal[i][SEC][6] = 0.
+							last_deal[i][SEC][7] = 0.
 						end
 					end
 					end_of_name = EXCH.."-M-qs"..tostring(i).."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
@@ -397,21 +403,31 @@ CreateWindow(tb_res)
 					else
 						price_p = price_partc
 					end
-					if qt_bid_sum*dpart < qt_of_sum then
-						if last_deal[i][SEC][1]>=(1-dub_up) then
+					moff_sum = moff_sum + tonumber(qt.offer[i].quantity) * tonumber(qt.offer[i].price)
+					mbid_sum = mbid_sum + tonumber(qt.bid[1+qt.bid_count-i].quantity) * tonumber(qt.bid[1+qt.bid_count-i].price)
+
+					if last_deal[i][SEC][1]>=(1-dub_up) then
+						if qt_bid_sum*dpart < qt_of_sum then
 							PRICE_STEP=getSecurityInfo(CLASS, SEC).min_price_step
-							prc_deal = (prc_bid*price_p + tonumber(qt.offer[i].price)*(1.0-price_p))
-							last_deal[i][SEC][6] = -(prc_deal - (prc_deal - prc_off)%PRICE_STEP)
-							if last_deal[i][SEC][6] ~= 0 then
-								SetCell(tb_res, row, 2*i+4, "or"..tostring(last_deal[i][SEC][6]))
+							prc_deal = (price_p * prc_bid + (1.0-price_p) * moff_sum / qt_of_sum)
+							last_deal[i][SEC][7] = -(prc_deal - (prc_deal - prc_off)%PRICE_STEP)
+							if last_deal[i][SEC][7] ~= 0 then
+								SetCell(tb_res, row, 2*i+4, "or"..tostring(last_deal[i][SEC][7]))
 							end
+						else
+							last_deal[i][SEC][7] = 0
 						end
-					elseif qt_bid_sum > qt_of_sum*dpart then
-						if last_deal[i][SEC][1]<=0 then
+					end
+					if last_deal[i][SEC][1]<=0 then
+						if qt_bid_sum > qt_of_sum*dpart then
 							PRICE_STEP=getSecurityInfo(CLASS, SEC).min_price_step
-							prc_deal = (prc_off*price_p + tonumber(qt.bid[1+qt.bid_count-i].price)*(1.0-price_p))
+							prc_deal = (price_p * prc_off + (1.0-price_p) * mbid_sum / qt_bid_sum)
 							last_deal[i][SEC][6] = prc_deal + (prc_bid - prc_deal)%PRICE_STEP
-							SetCell(tb_res, row, 2*i+4, "or+"..tostring(last_deal[i][SEC][6]))
+							if last_deal[i][SEC][6] ~= 0 then
+								SetCell(tb_res, row, 2*i+4, "or+"..tostring(last_deal[i][SEC][6]))
+							end
+						else
+							last_deal[i][SEC][6] = 0
 						end
 					end
 -- ===============================================
@@ -510,7 +526,7 @@ function position_up(SEC, last_deald)
 end
 --  ============================================
 function position_dn(SEC, last_deald)
-	bidS = math.abs(last_deald[SEC][6])
+	bidS = math.abs(last_deald[SEC][7])
 	if last_deald[SEC][1] > 0 then
 		res = last_deald[SEC][3]+(last_deald[SEC][1])*bidS-math.abs(last_deald[SEC][1])*comis*bidS
 		if math.abs(res) > bidS then
@@ -546,7 +562,7 @@ function position_dn(SEC, last_deald)
 		last_deald[SEC][5] = 0.
 	elseif last_deald[SEC][1] == 0 then
 			ld = -dub_up
-			last_deald[SEC][5] = last_deald[SEC][6] * dub_up
+			last_deald[SEC][5] = last_deald[SEC][7] * dub_up
 	end
 	last_deald[SEC][3]=last_deald[SEC][3]-(ld-last_deald[SEC][1])*bidS-math.abs(ld-last_deald[SEC][1])*comis*bidS
 	last_deald[SEC][1] = ld

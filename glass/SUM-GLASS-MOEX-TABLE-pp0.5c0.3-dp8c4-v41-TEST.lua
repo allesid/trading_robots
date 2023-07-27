@@ -129,10 +129,6 @@ end
 function main()
 	-- message("Start cycle tm= "..tm.." "..end_of_name, 1)
 	-- message("Start time = "..start_time, 1)
-	while tm<start_time do
-		sleep(5000)
-		tm = os.sysdate().hour * 100 + os.sysdate().min * 1
-	end
 	message("====================", 1)
 	--message("1 "..tostring(filer1))
 	
@@ -269,6 +265,10 @@ CreateWindow(tb_res)
 	SetWindowCaption(tb_res, "RESULT mult".." "..EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).." "..ver)
 	dt = getTradeDate().date
  	tm = os.sysdate().hour * 100 + os.sysdate().min
+	while tm<start_time do
+		sleep(5000)
+		tm = os.sysdate().hour * 100 + os.sysdate().min * 1
+	end
 	sl = {}
 	sl_len = 0
 	for row, SEC in pairs(sec_list) do
