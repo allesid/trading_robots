@@ -476,7 +476,7 @@ function position_up(SEC, last_deald)
 			filer_err:write("=== position_up1 ==="..eon, '\n')
 			filer_err:write(SEC, '\n')
 			filer_err:write("res="..res, '\n')
-			filer_err:write("sec_"..SEC)
+			filer_err:write("offS="..offS)
 			filer_err:write(" ld_"..last_deald[SEC][1])
 			filer_err:write(" res_"..last_deald[SEC][2])
 			filer_err:write(" pos_"..last_deald[SEC][3])
@@ -496,7 +496,7 @@ function position_up(SEC, last_deald)
 	end
 	last_deald[SEC][3]=last_deald[SEC][3]-(ld-last_deald[SEC][1])*offS-math.abs(ld-last_deald[SEC][1])*comis*offS
 	last_deald[SEC][1] = ld
-	if last_deald[SEC][1] ~= 0 and last_deald[SEC][5] == 0. then
+	if (last_deald[SEC][1] ~= 0 and last_deald[SEC][5] == 0.) or (last_deald[SEC][1] == 0 and last_deald[SEC][5] ~= 0.) then
 		-- message("=== position_up2 ===", 1)
 		-- message(SEC, 1)
 		-- message("res="..res, 1)
@@ -546,7 +546,7 @@ function position_dn(SEC, last_deald)
 			filer_err:write("=== position_down1 ==="..eon, '\n')
 			filer_err:write(SEC, '\n')
 			filer_err:write("res="..res, '\n')
-			filer_err:write("sec_"..SEC)
+			filer_err:write("bidS="..bidS)
 			filer_err:write(" ld_"..last_deald[SEC][1])
 			filer_err:write(" res_"..last_deald[SEC][2])
 			filer_err:write(" pos_"..last_deald[SEC][3])
@@ -566,7 +566,7 @@ function position_dn(SEC, last_deald)
 	end
 	last_deald[SEC][3]=last_deald[SEC][3]-(ld-last_deald[SEC][1])*bidS-math.abs(ld-last_deald[SEC][1])*comis*bidS
 	last_deald[SEC][1] = ld
-	if last_deald[SEC][1] ~= 0 and last_deald[SEC][5] == 0. then
+	if (last_deald[SEC][1] ~= 0 and last_deald[SEC][5] == 0.) or (last_deald[SEC][1] == 0 and last_deald[SEC][5] ~= 0.) then
 		-- message("=== position_down2 ===", 1)
 		-- message(SEC, 1)
 		-- message("res="..res, 1)

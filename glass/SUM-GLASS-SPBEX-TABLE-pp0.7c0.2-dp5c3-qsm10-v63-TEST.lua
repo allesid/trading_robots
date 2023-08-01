@@ -466,17 +466,17 @@ function position_up(SEC, last_deald)
 	end
 	last_deald[SEC][3]=last_deald[SEC][3]-(ld-last_deald[SEC][1])*offS-math.abs(ld-last_deald[SEC][1])*comis*offS
 	last_deald[SEC][1] = ld
-	if last_deald[SEC][1] ~= 0 and last_deald[SEC][5] == 0. then
-		message("=== position_up "..ver, 1)
-		message(SEC, 1)
-		message("res="..res, 1)
-		message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
-		message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
-		message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
-		message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
-		message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
-		message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
-	end
+	-- if (last_deald[SEC][1] ~= 0 and last_deald[SEC][5] == 0.) or (last_deald[SEC][1] == 0 and last_deald[SEC][5] ~= 0.) then
+		-- message("=== position_up "..ver, 1)
+		-- message(SEC, 1)
+		-- message("res="..res, 1)
+		-- message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
+		-- message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
+		-- message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
+		-- message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
+		-- message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
+		-- message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+	-- end
 	return last_deald
 end
 --  ============================================
@@ -494,7 +494,7 @@ function position_dn(SEC, last_deald)
 	end
 	last_deald[SEC][3]=last_deald[SEC][3]-(ld-last_deald[SEC][1])*bidS-math.abs(ld-last_deald[SEC][1])*comis*bidS
 	last_deald[SEC][1] = ld
-	if last_deald[SEC][1] ~= 0 and last_deald[SEC][5] == 0. then
+	if (last_deald[SEC][1] ~= 0 and last_deald[SEC][5] == 0.) or (last_deald[SEC][1] == 0 and last_deald[SEC][5] ~= 0.) then
 		message("=== position_dn "..ver, 1)
 		message(SEC, 1)
 		message("res="..res, 1)

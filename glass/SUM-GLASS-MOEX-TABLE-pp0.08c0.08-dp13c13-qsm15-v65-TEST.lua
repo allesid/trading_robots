@@ -4,49 +4,30 @@
 -- FIRM_ID="MC0094600000"
 
 -- CLASS="TQTF"
--- TRADE_ACC   = "L01-00000F00"   -- торговый счет
--- CLIENT_CODE = "54174"          -- код клиента
--- FIRM_ID="MC0094600000"
 
 -- CLASS="SPBDE"
--- TRADE_ACC   = "CITFS00003"   -- торговый счет
--- CLIENT_CODE = "65425"          -- код клиента
--- FIRM_ID="MC0094600000"
 
-CLASS="SPBXM"
-TRADE_ACC   = "CITFS00003"   -- торговый счет
-CLIENT_CODE = "65425"          -- код клиента
-FIRM_ID="MC0094600000"
+-- CLASS="SPBXM"
 
 -- CLASS="CETS"
--- TRADE_ACC   = "MB0094600602"   -- торговый счет
--- CLIENT_CODE = "65425"          -- код клиента
--- FIRM_ID="MC0094600000"
 
--- CLASS="TQBR"
--- TRADE_ACC   = "L01-00000F00"   -- торговый счет
--- CLIENT_CODE = "54174"          -- код клиента
--- FIRM_ID="MC0094600000"
+CLASS="TQBR"
 
 -- CLASS="SPBFUT"
--- TRADE_ACC   = "1500c6h"   -- торговый счет
--- CLIENT_CODE = "65425"          -- код клиента
--- FIRM_ID="SPBFUT"
 
 -- CLASS="CETS_MTL"
--- TRADE_ACC   = "MB0094600602"   -- торговый счет
--- CLIENT_CODE = "65425"          -- код клиента
--- FIRM_ID="MC0094600000"
 
 path_name = "C:/Projects/trading_robots/glass/results/"
 qsummax = 20
-dpart = 8 --коэффициент превышения суммы объема бид и оффер для сделки открытия позиции
+
+price_part = 0.08 -- цена выставления ордера между средним (бид и оффер) и бид/оффер макс в интервале [0.0-1.0]
+price_partc = 0.08 -- то же для сделки закрытия позиции
+dpart = 13 --коэффициент превышения суммы объема бид и оффер для сделки открытия позиции
 -- например: сумма бидов умноженная на dpart > суммы офферов - покупка
-dpartc = 5 -- то же для сделки закрытия позиции
-qstep_min = 10
-price_part = 0.7 -- цена выставления ордера между средним (бид и оффер) и бид/оффер макс в интервале [0.0-1.0]
-price_partc = 0.2 -- то же для сделки закрытия позиции
-ver = "v63-TEST" -- "WORK"
+dpartc = 13 -- то же для сделки закрытия позиции
+qstep_min = 15
+ver = "v65-TEST" -- "WORK"
+
 --  ========    DATA    ====================
 
 stime = 2500
@@ -59,18 +40,27 @@ if CLASS == "TQBR" then
 	stime = 1838
 	etime = 1906
 	dub_up = 1  -- if dub_up==0 => only UP; if dub_up==1 => Dub (or UP and DOWN) direction
+	TRADE_ACC   = "L01-00000F00"   -- торговый счет
+	CLIENT_CODE = "54174"          -- код клиента
+	FIRM_ID="MC0094600000"
 elseif CLASS =="CETS_MTL" then
 	EXCH = "GOLD" -- "SPBEX" -- "SPBDE" -- "NYSE" -- "NASDAQ" -- "MOEX-ETF" -- 
 	sec_pattern = "sec_([%w_]+)" -- "sec_(%a+_XM)" -- "sec_(%w+@DE_XM)" -- "sec_(%a+_NY)" -- 
 	start_time = 700
 	end_time = 1839
 	dub_up = 0  -- if dub_up==0 => only UP; if dub_up==1 => Dub (or UP and DOWN) direction
+	TRADE_ACC   = "MB0094600602"   -- торговый счет
+	CLIENT_CODE = "65425"          -- код клиента
+	FIRM_ID="MC0094600000"
 elseif CLASS == "TQTF" then
 	EXCH = "MOEX-ETF" -- "SPBEX" -- "SPBDE" -- "NYSE" -- "NASDAQ" -- "MOEX-ETF" -- 
 	sec_pattern = "sec_(%a+)" -- "sec_(%a+_XM)" -- "sec_(%w+@DE_XM)" -- "sec_(%a+_NY)" -- 
 	start_time = 1000
 	end_time = 2349
 	dub_up = 0  -- if dub_up==0 => only UP; if dub_up==1 => Dub (or UP and DOWN) direction
+	TRADE_ACC   = "L01-00000F00"   -- торговый счет
+	CLIENT_CODE = "54174"          -- код клиента
+	FIRM_ID="MC0094600000"
 elseif CLASS == "SPBFUT" then
 	EXCH = "FUTUR" -- "SPBEX" -- "SPBDE" -- "NYSE" -- "NASDAQ" -- "MOEX-ETF" -- 
 	sec_pattern = "sec_(%w+)" -- "sec_(%a+_XM)" -- "sec_(%w+@DE_XM)" -- "sec_(%a+_NY)" -- 
@@ -79,27 +69,40 @@ elseif CLASS == "SPBFUT" then
 	stime = 1850
 	etime = 1905
 	dub_up = 1  -- if dub_up==0 => only UP; if dub_up==1 => Dub (or UP and DOWN) direction
+	TRADE_ACC   = "1500c6h"   -- торговый счет
+	CLIENT_CODE = "65425"          -- код клиента
+	FIRM_ID="SPBFUT"
 elseif CLASS == "CETS" then
 	EXCH = "CURR" -- "SPBEX" -- "SPBDE" -- "NYSE" -- "NASDAQ" -- "MOEX-ETF" -- 
 	sec_pattern = "sec_([%w_]+)" -- "sec_(%a+_XM)" -- "sec_(%w+@DE_XM)" -- "sec_(%a+_NY)" -- 
 	start_time = 700 --CETS
 	end_time = 1859 --CETS
 	dub_up = 0  -- if dub_up==0 => only UP; if dub_up==1 => Dub (or UP and DOWN) direction
+	TRADE_ACC   = "MB0094600602"   -- торговый счет
+	CLIENT_CODE = "65425"          -- код клиента
+	FIRM_ID="MC0094600000"
 elseif CLASS == "SPBXM" then
 	EXCH = "SPBEX" -- "SPBDE" -- "MOEX-SEC" -- "NYSE" -- "NASDAQ" -- "MOEX-ETF" -- 
 	sec_pattern = "sec_(%a+_XM)" -- "sec_(%w+@DE_XM)" -- "sec_(%a+)" -- "sec_(%a+_NY)" -- 
 	start_time =  0 -- 1200
 	end_time = 2500
 	dub_up = 0  -- if dub_up==0 => only UP; if dub_up==1 => Dub (or UP and DOWN) direction
+	TRADE_ACC   = "CITFS00003"   -- торговый счет
+	CLIENT_CODE = "65425"          -- код клиента
+	FIRM_ID="MC0094600000"
 elseif CLASS == "SPBDE" then
 	EXCH = "SPBDE" -- "SPBEX" -- "MOEX-SEC" -- "NYSE" -- "NASDAQ" -- "MOEX-ETF" -- 
 	sec_pattern = "sec_(%w+@DE_XM)" -- "sec_(%a+_XM)" -- "sec_(%a+)" -- "sec_(%a+_NY)" -- 
 	dub_up = 0  -- if dub_up==0 => only UP; if dub_up==1 => Dub (or UP and DOWN) direction
+	TRADE_ACC   = "CITFS00003"   -- торговый счет
+	CLIENT_CODE = "65425"          -- код клиента
+	FIRM_ID="MC0094600000"
 else
 	message("CLASS not found", 3)
 	is_run = false
 	return
 end
+
 instr_file_name = CLASS.."_instruments.txt"
 -- time_interval = INTERVAL_H1
 	-- money_limit=205
@@ -110,7 +113,7 @@ res_pattern = "res_(%-?%d+[.]?%d*)"
 pos_pattern = "pos_(%-?%d+[.]?%d*)"
 pospct_pattern = "pospct_(%-?%d+[.]?%d*)"
 prc_pattern = "prc_(%d+[.]?%d*)"
-comis = 0.0005
+comis = 0.00025
 sec_list = {}
 last_deal = {} -- [vers num][SEC][DEAL_variant]{last_deal, res, pos}
 qt = {}
@@ -456,6 +459,33 @@ function position_up(SEC, last_deald)
 	offS = math.abs(last_deald[SEC][6])
 	if last_deald[SEC][1] < 0  then
 		res = last_deald[SEC][3]+(last_deald[SEC][1])*offS-math.abs(last_deald[SEC][1])*comis*offS
+		if math.abs(res) > offS then
+			-- message("=== position_up1 ===", 1)
+			-- message(SEC, 1)
+			-- message("res="..res, 1)
+			-- message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
+			-- message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
+			-- message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
+			-- message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
+			-- message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
+			-- message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+
+			eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
+			efilename = path_name.."error-GLASS-"..eon
+			filer_err=io.open(efilename, "a")
+			filer_err:write("=== position_up1 ==="..eon, '\n')
+			filer_err:write(SEC, '\n')
+			filer_err:write("res="..res, '\n')
+			filer_err:write("offS="..offS)
+			filer_err:write(" ld_"..last_deald[SEC][1])
+			filer_err:write(" res_"..last_deald[SEC][2])
+			filer_err:write(" pos_"..last_deald[SEC][3])
+			filer_err:write(" pospct_"..last_deald[SEC][4])
+			filer_err:write(" prc_"..last_deald[SEC][5])
+			filer_err:write('\n')
+			filer_err:close()
+		end
+
 		last_deald[SEC][4] = last_deald[SEC][4] + (res - last_deald[SEC][2])*100/math.abs(last_deald[SEC][5])
 		last_deald[SEC][2] = res
 		ld = 0
@@ -466,8 +496,8 @@ function position_up(SEC, last_deald)
 	end
 	last_deald[SEC][3]=last_deald[SEC][3]-(ld-last_deald[SEC][1])*offS-math.abs(ld-last_deald[SEC][1])*comis*offS
 	last_deald[SEC][1] = ld
-	-- if (last_deald[SEC][1] ~= 0 and last_deald[SEC][5] == 0.) or (last_deald[SEC][1] == 0 and last_deald[SEC][5] ~= 0.) then
-		-- message("=== position_up "..ver, 1)
+	if (last_deald[SEC][1] ~= 0 and last_deald[SEC][5] == 0.) or (last_deald[SEC][1] == 0 and last_deald[SEC][5] ~= 0.) then
+		-- message("=== position_up2 ===", 1)
 		-- message(SEC, 1)
 		-- message("res="..res, 1)
 		-- message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
@@ -476,7 +506,22 @@ function position_up(SEC, last_deald)
 		-- message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
 		-- message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
 		-- message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
-	-- end
+
+			eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
+			efilename = path_name.."error-GLASS-"..eon
+			filer_err=io.open(efilename, "a")
+			filer_err:write("=== position_up2 ==="..eon, '\n')
+			filer_err:write(SEC, '\n')
+			filer_err:write("res="..res, '\n')
+			filer_err:write("sec_"..SEC)
+			filer_err:write(" ld_"..last_deald[SEC][1])
+			filer_err:write(" res_"..last_deald[SEC][2])
+			filer_err:write(" pos_"..last_deald[SEC][3])
+			filer_err:write(" pospct_"..last_deald[SEC][4])
+			filer_err:write(" prc_"..last_deald[SEC][5])
+			filer_err:write('\n')
+			filer_err:close()
+	end
 	return last_deald
 end
 --  ============================================
@@ -484,6 +529,33 @@ function position_dn(SEC, last_deald)
 	bidS = math.abs(last_deald[SEC][6])
 	if last_deald[SEC][1] > 0 then
 		res = last_deald[SEC][3]+(last_deald[SEC][1])*bidS-math.abs(last_deald[SEC][1])*comis*bidS
+		if math.abs(res) > bidS then
+			-- message("=== position_down1 ===", 1)
+			-- message(SEC, 1)
+			-- message("res="..res, 1)
+			-- message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
+			-- message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
+			-- message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
+			-- message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
+			-- message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
+			-- message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+
+			eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
+			efilename = path_name.."error-GLASS-"..eon
+			filer_err=io.open(efilename, "a")
+			filer_err:write("=== position_down1 ==="..eon, '\n')
+			filer_err:write(SEC, '\n')
+			filer_err:write("res="..res, '\n')
+			filer_err:write("bidS="..bidS)
+			filer_err:write(" ld_"..last_deald[SEC][1])
+			filer_err:write(" res_"..last_deald[SEC][2])
+			filer_err:write(" pos_"..last_deald[SEC][3])
+			filer_err:write(" pospct_"..last_deald[SEC][4])
+			filer_err:write(" prc_"..last_deald[SEC][5])
+			filer_err:write('\n')
+			filer_err:close()
+		end
+
 		last_deald[SEC][4] = last_deald[SEC][4] + (res - last_deald[SEC][2])*100/math.abs(last_deald[SEC][5])
 		last_deald[SEC][2] = res
 		ld = 0
@@ -495,15 +567,30 @@ function position_dn(SEC, last_deald)
 	last_deald[SEC][3]=last_deald[SEC][3]-(ld-last_deald[SEC][1])*bidS-math.abs(ld-last_deald[SEC][1])*comis*bidS
 	last_deald[SEC][1] = ld
 	if (last_deald[SEC][1] ~= 0 and last_deald[SEC][5] == 0.) or (last_deald[SEC][1] == 0 and last_deald[SEC][5] ~= 0.) then
-		message("=== position_dn "..ver, 1)
-		message(SEC, 1)
-		message("res="..res, 1)
-		message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
-		message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
-		message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
-		message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
-		message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
-		message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+		-- message("=== position_down2 ===", 1)
+		-- message(SEC, 1)
+		-- message("res="..res, 1)
+		-- message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
+		-- message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
+		-- message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
+		-- message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
+		-- message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
+		-- message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+
+			eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
+			efilename = path_name.."error-GLASS-"..eon
+			filer_err=io.open(efilename, "a")
+			filer_err:write("=== position_down2 ==="..eon, '\n')
+			filer_err:write(SEC, '\n')
+			filer_err:write("res="..res, '\n')
+			filer_err:write("sec_"..SEC)
+			filer_err:write(" ld_"..last_deald[SEC][1])
+			filer_err:write(" res_"..last_deald[SEC][2])
+			filer_err:write(" pos_"..last_deald[SEC][3])
+			filer_err:write(" pospct_"..last_deald[SEC][4])
+			filer_err:write(" prc_"..last_deald[SEC][5])
+			filer_err:write('\n')
+			filer_err:close()
 	end
 	return last_deald
 end
@@ -528,15 +615,31 @@ function set_sell_neg(tb_res, row, SEC, last_deald)
 		end
 		if last_deald[SEC][1] ~= 0 then
 			if math.abs(res - last_deald[SEC][2]) > math.abs(last_deald[SEC][5]) then
-				message("=== Error  "..ver.." ===", 1)
-				message(SEC, 1)
-				message("res="..res, 1)
-				message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
-				message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
-				message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
-				message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
-				message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
-				message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+				-- message("=== Error  "..ver.." ===", 1)
+				-- message(SEC, 1)
+				-- message("res="..res, 1)
+				-- message("last_deald[SEC][1]="..last_deald[SEC][1], 1)
+				-- message("last_deald[SEC][2]="..last_deald[SEC][2], 1)
+				-- message("last_deald[SEC][3]="..last_deald[SEC][3], 1)
+				-- message("last_deald[SEC][4]="..last_deald[SEC][4], 1)
+				-- message("last_deald[SEC][5]="..last_deald[SEC][5], 1)
+				-- message("last_deald[SEC][6]="..last_deald[SEC][6], 1)
+
+				eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
+				efilename = path_name.."error-GLASS-"..eon
+				filer_err=io.open(efilename, "a")
+				filer_err:write("=== Error  "..eon.." ===", '\n')
+				filer_err:write("=== math.abs(res - last_deald[SEC][2]) > math.abs(last_deald[SEC][5]) ===", '\n')
+				filer_err:write(SEC, '\n')
+				filer_err:write("res="..res, '\n')
+				filer_err:write("sec_"..SEC)
+				filer_err:write(" ld_"..last_deald[SEC][1])
+				filer_err:write(" res_"..last_deald[SEC][2])
+				filer_err:write(" pos_"..last_deald[SEC][3])
+				filer_err:write(" pospct_"..last_deald[SEC][4])
+				filer_err:write(" prc_"..last_deald[SEC][5])
+				filer_err:write('\n')
+				filer_err:close()
 			end
 			percent = last_deald[SEC][4] + (res - last_deald[SEC][2])*100/math.abs(last_deald[SEC][5])
 		end
