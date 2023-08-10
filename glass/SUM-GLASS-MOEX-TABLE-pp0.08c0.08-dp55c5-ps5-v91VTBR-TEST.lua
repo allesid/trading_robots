@@ -12,7 +12,7 @@
 -- CLASS="CETS"  -- CURR
 
 CLASS="TQBR"
-SEC = "GAZP"
+SEC = "VTBR"
 
 -- CLASS="SPBFUT"
 
@@ -23,11 +23,11 @@ qsummax = 20
 
 price_part = 0.08 -- цена выставления ордера между средним (бид и оффер) и бид/оффер макс в интервале [0.0-1.0]
 price_partc = 0.08 -- то же для сделки закрытия позиции
-dpart = 8 --коэффициент превышения суммы объема бид и оффер для сделки открытия позиции
+dpart = 55 --коэффициент превышения суммы объема бид и оффер для сделки открытия позиции
 -- например: сумма бидов умноженная на dpart > суммы офферов - покупка
-dpartc = 8 -- то же для сделки закрытия позиции
-ver = "v9"..SEC.."-TEST" -- "WORK"
-
+dpartc = 5 -- то же для сделки закрытия позиции
+ver = "v91"..SEC.."-TEST" -- "WORK"
+ps = 5
 --  ========    DATA    ====================
 
 stime = 2500
@@ -103,10 +103,6 @@ else
 	return
 end
 
--- time_interval = INTERVAL_H1
-	-- money_limit=205
-	-- currency = "SUR" -- "USD" --
-	-- position_code= "EQTV" -- "GLSP" --
 ld_pattern = "ld_(%-?%d)"
 res_pattern = "res_(%-?%d+[.]?%d*)"
 pos_pattern = "pos_(%-?%d+[.]?%d*)"
@@ -142,92 +138,33 @@ summary_res = {0,0.,0.,0.,0.,0,0}
 function OnInit(s)
 
 	for i=1,qsummax do 
-		end_of_name[i] = EXCH.."-M-qs"..tostring(i).."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
+		end_of_name[i] = EXCH.."-M-qs"..tostring(i).."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-ps"..tostring(ps).."-"..ver..".txt"
 		data_file_name[i] = path_name.."data-GLASS-"..end_of_name[i]
 		result_file_name[i] = path_name.."Result-GLASS-"..end_of_name[i]
 
 		
 
-		-- if filer1 == nil then
-			-- filer1=io.open(data_file_name[i], "w")
-			-- message("Inserting sequrity to data file: "..data_file_name[i],2)
-			-- filer1:write(SEC,'\n')
-			-- filer1:close()
-			-- sleep(500)
-			-- 
-		-- end
-			--message("2 "..tostring(filer1))
 		last_deal[i] = {}
-		-- str = filer1:read("*l")
-		-- if str then
-			-- len_SEC = 0
-			-- while str do
 			message("3 "..tostring(str))
 			message(str)
 					message(SEC, 1)
-				-- len_SEC = len_SEC + 1
-				-- SEC = string.match(str, sec_pattern)
-				-- if SEC then
-					-- sec_list[len_SEC] = SEC
-					-- last_deal[i] = {}
-						-- last_deal[i][1] = tonumber(string.match(str, ld_pattern))
-						-- if last_deal[i][1] then
-						-- else
-							-- message("Bad last_deal input: SEC="..SEC,2)
-							-- last_deal[i][1] = 0
-						-- end
-						-- last_deal[i][2] = tonumber(string.match(str, res_pattern))
-						-- if last_deal[i][2] then
-						-- else
-							-- message("Bad res input: SEC="..SEC,2)
-							-- last_deal[i][2] = 0
-						-- end
-						-- last_deal[i][3] = tonumber(string.match(str, pos_pattern))
-						-- if last_deal[i][3] then
-						-- else
-							-- message("Bad pos input: SEC="..SEC,2)
-							-- last_deal[i][3] = 0
-						-- end
-						-- last_deal[i][4] = tonumber(string.match(str, pospct_pattern))
-						-- if last_deal[i][4] then
-						-- else
-							-- message("Bad pospct input: SEC="..SEC,2)
-							-- last_deal[i][4] = 0
-						-- end
-						-- last_deal[i][5] = tonumber(string.match(str, prc_pattern))
-						-- if last_deal[i][5] then
-						-- else
-							-- message("Bad prc input: SEC="..SEC,2)
-							-- last_deal[i][5] = 0
-						-- end
-				-- else
-					-- SEC = str
-					-- sec_list[len_SEC] = SEC
 						last_deal[i] = {}
 						last_deal[i][1] = 0
 						last_deal[i][2] = 0
 						last_deal[i][3] = 0
 						last_deal[i][4] = 0
 						last_deal[i][5] = 0   -- 
-				-- end
-				-- message(SEC, 1)
 				last_deal[i][6] = 0
 				last_deal[i][7] = 0
-				-- str = filer1:read("*l")
-			-- end
-			-- message("Load vers: "..tostring(i).." SEC= "..tostring(SEC).." len_SEC= "..tostring(len_SEC), 1)
-		-- else
-			-- message("No input data "..tostring(i), 1)
-		-- end
-		-- filer1:close()
-		-- prints(data_file_name[i],last_deal[i])
 		-- filer[i]=io.open(result_file_name[i], "a")
 		-- filer[i]:write("=========================================", '\n')
 		-- filer[i]:write("Start: date="..dt.." time="..tm.." data_file_name="..data_file_name[i], '\n')
 	end
-		end_of_name_res = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
+		end_of_name_res = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-ps"..tostring(ps).."-"..ver..".txt"
 		sum_result_fn = path_name.."Summary_Res-GLASS-"..end_of_name_res
 	filer_res=io.open(sum_result_fn, "a")
+	filer_res:write("========================================", '\n')
+	filer_res:write(SEC.."  "..tostring(dt).."  "..tostring(tm), '\n')
 end
 --  ============================================
 
@@ -275,7 +212,7 @@ function main()
 			ac_res = AddColumn(tb_res, 2*i+4, tostring(i).." DEAL", true, QTABLE_CACHED_STRING_TYPE, 6) 
 		end
 		CreateWindow(tb_res)
-			SetWindowCaption(tb_res, "RESULT mult".." "..EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).." "..ver)
+			SetWindowCaption(tb_res, "RESULT mult".." "..EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-ps"..tostring(ps).." "..ver)
 	
 		row = InsertRow(tb_res, -1)
 		SetCell(tb_res, row, 1, SEC)
@@ -381,7 +318,7 @@ function main()
 end
 --  ============================================
 function OnQuote(class_code, sec_code)
-	if class_code == CLASS and SEC == sec_code then
+	if class_code==CLASS and SEC==sec_code and tm>=stime and tm<etime and tm<start_time and tm>=end_time then
 		-- message("SEC="..SEC.." row="..row, 1)
 		qt = getQuoteLevel2(CLASS, SEC)
 		if tonumber(qt.bid_count)>=qsummax and tonumber(qt.offer_count)>=qsummax  then
@@ -474,7 +411,7 @@ function OnQuote(class_code, sec_code)
 				end
 			end
 
-			ir = math.max(summary_res[6], 2)
+			ir = math.max(summary_res[6], ps)
 			
 			if summary_res[1] < last_deal[ir][1] then
 				summary_res[7] = summary_res[1]
@@ -540,7 +477,7 @@ function set_sell_neg(tb_resc, row, SEC, last_deald, ic)
 		end
 		if last_deald[1] ~= 0 then
 			if math.abs(res - last_deald[2]) > math.abs(last_deald[5]) then
-				eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
+				eon = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-ps"..tostring(ps).."-"..ver..".txt"
 				efilename = path_name.."error-GLASS-"..eon
 				filer_err=io.open(efilename, "a")
 				filer_err:write("=== Error  "..eon.." ===", '\n')
@@ -599,7 +536,7 @@ function stop_main(tb_res, ds)
 	elseif summary_res[1] < 0 then
 		res = summary_res[3] + (summary_res[1] - comis) * prc_off
 	end
-	filer_res:write(SEC.."stop result="..tostring(res), '\n')
+	filer_res:write(SEC.." stop result="..tostring(res), '\n')
 	for i=1, qsummax do 
 		-- filer[i]:write("Stop: date="..dt.." time="..tm, '\n')
 		-- filer[i]:write("Stop: summary result = "..string.format('%.2f', last_deal[i][4]).." %", '\n')

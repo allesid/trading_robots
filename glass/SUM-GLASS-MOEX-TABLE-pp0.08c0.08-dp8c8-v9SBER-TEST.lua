@@ -146,7 +146,7 @@ function OnInit(s)
 		data_file_name[i] = path_name.."data-GLASS-"..end_of_name[i]
 		result_file_name[i] = path_name.."Result-GLASS-"..end_of_name[i]
 
-		filer1=io.open(data_file_name[i], "r")
+		
 
 		-- if filer1 == nil then
 			-- filer1=io.open(data_file_name[i], "w")
@@ -154,7 +154,7 @@ function OnInit(s)
 			-- filer1:write(SEC,'\n')
 			-- filer1:close()
 			-- sleep(500)
-			-- filer1=io.open(data_file_name[i], "r")
+			-- 
 		-- end
 			--message("2 "..tostring(filer1))
 		last_deal[i] = {}
@@ -221,9 +221,9 @@ function OnInit(s)
 		-- end
 		-- filer1:close()
 		-- prints(data_file_name[i],last_deal[i])
-		filer[i]=io.open(result_file_name[i], "a")
-		filer[i]:write("=========================================", '\n')
-		filer[i]:write("Start: date="..dt.." time="..tm.." data_file_name="..data_file_name[i], '\n')
+		-- filer[i]=io.open(result_file_name[i], "a")
+		-- filer[i]:write("=========================================", '\n')
+		-- filer[i]:write("Start: date="..dt.." time="..tm.." data_file_name="..data_file_name[i], '\n')
 	end
 		end_of_name_res = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
 		sum_result_fn = path_name.."Summary_Res-GLASS-"..end_of_name_res
@@ -281,8 +281,6 @@ function main()
 		SetCell(tb_res, row, 1, SEC)
 		SetCell(tb_res, row, 2, CLASS)
 		SetCell(tb_res, row, 3, getSecurityInfo(CLASS, SEC).short_name )
-		last_row = InsertRow(tb_res, -1)
-		SetCell(tb_res, last_row, 3, "Aver res summs back, %")
 		row_sum = InsertRow(tb_res, -1)
 		SetCell(tb_res, row_sum, 3, "Summary res, %")
 
@@ -323,13 +321,25 @@ function main()
 				qt = getQuoteLevel2(CLASS, SEC)
 				prc_bid = tonumber(qt.bid[qt.bid_count-0].price)
 				prc_off = tonumber(qt.offer[1].price)
-				res = summary_res[3]+(summary_res[1]-comis)*(prc_bid+prc_off)/2
-				SetCell(tb_res, row_sum, 9, string.format('%.2f',tostring(res)))
-			    SetCell(tb_res, row_sum, 11, string.format('%.2f',tostring(res*100/prc_off)))
+				ress = summary_res[3]+(summary_res[1]-comis)*(prc_bid+prc_off)/2
+				SetCell(tb_res, row_sum, 9, string.format('%.2f',tostring(ress)))
+			    SetCell(tb_res, row_sum, 11, string.format('%.2f',tostring(ress*100/prc_off)))
 			else
 				SetCell(tb_res, row_sum, 9, string.format('%.2f',tostring(summary_res[2])))
 			    SetCell(tb_res, row_sum, 11, string.format('%.2f',tostring(summary_res[4])))
+				ress = summary_res[3]
 			end
+				if ress > 0 then
+					SetColor(tb_res, row_sum, 9, RGB(160,255,160),RGB(0,0,0), RGB(160,255,160), RGB(0,0,0))
+					SetColor(tb_res, row_sum, 11, RGB(160,255,160),RGB(0,0,0), RGB(160,255,160), RGB(0,0,0))
+				elseif ress < 0 then
+					SetColor(tb_res, row_sum, 9, RGB(255,160,160),RGB(0,0,0), RGB(255,160,160), RGB(0,0,0))
+					SetColor(tb_res, row_sum, 11, RGB(255,160,160),RGB(0,0,0), RGB(255,160,160), RGB(0,0,0))
+				else
+					SetColor(tb_res, row_sum, 9, RGB(255,255,255), RGB(0,0,0), RGB(255,255,255), RGB(0,0,0))
+					SetColor(tb_res, row_sum, 11, RGB(255,255,255), RGB(0,0,0), RGB(255,255,255), RGB(0,0,0))
+				end
+
 			SetCell(tb_res, row_sum, 12, "ir=")
 			SetCell(tb_res, row_sum, 13, string.format('%.2f',tostring(summary_res[6])))
 			SetCell(tb_res, row_sum, 14, "pos=")
@@ -361,16 +371,6 @@ function main()
 					if last_deal[i][6] ~= 0 then
 						SetCell(tb_res, row, 2*i+4, "or+"..tostring(last_deal[i][6]))
 					end
-				end
-				j = qsummax + 1 - i
-				qssumb20 = qssumb20 + last_deal[j][4]
-				SetCell(tb_res, last_row, 2*j+3,  string.format('%.2f', qssumb20/i))
-				if qssumb20 > 0 then
-					SetColor(tb_res, last_row, 2*j+3, RGB(160,255,160),RGB(0,0,0), RGB(160,255,160), RGB(0,0,0))
-				elseif qssumb20 < 0 then
-					SetColor(tb_res, last_row, 2*j+3, RGB(255,160,160),RGB(0,0,0), RGB(255,160,160), RGB(0,0,0))
-				else
-					SetColor(tb_res, last_row, 2*j+3, RGB(255,255,255), RGB(0,0,0), RGB(255,255,255), RGB(0,0,0))
 				end
 				-- prints(data_file_name[i],last_deal[i])
 				set_sell_neg(tb_res, row, SEC, last_deal[i], i)
@@ -414,7 +414,7 @@ function OnQuote(class_code, sec_code)
 								last_deal[i][3] = last_deal[i][3]-(last_deal[i][1]+comis)*bidS
 								last_deal[i][5] = last_deal[i][6]
 							end
-							filer[i]:write(SEC.." BUY: date="..dt.." time="..tm.." res="..last_deal[i][2].." price="..last_deal[i][6], '\n')
+							-- filer[i]:write(SEC.." BUY: date="..dt.." time="..tm.." res="..last_deal[i][2].." price="..last_deal[i][6], '\n')
 						end
 						last_deal[i][6] = 0. 
 					end
@@ -438,7 +438,7 @@ function OnQuote(class_code, sec_code)
 								last_deal[i][3] = last_deal[i][3]-(last_deal[i][1]+comis)*offS*dub_up
 								last_deal[i][5] = last_deal[i][7] * dub_up
 							end
-							filer[i]:write(SEC.." SELL: date="..dt.." time="..tm.." res="..last_deal[i][2].." price="..-last_deal[i][7], '\n')
+							-- filer[i]:write(SEC.." SELL1: date="..dt.." time="..tm.." res="..last_deal[i][2].." price="..-last_deal[i][7], '\n')
 						end
 						last_deal[i][7] = 0.
 					end
@@ -479,37 +479,39 @@ function OnQuote(class_code, sec_code)
 			if summary_res[1] < last_deal[ir][1] then
 				summary_res[7] = summary_res[1]
 				if summary_res[7] < 0  then
+					res_1 = summary_res[2]
 					summary_res[2] = summary_res[3]+(summary_res[7]-comis)*prc_off
 					if math.abs(summary_res[5]) ~= 0 then
-						summary_res[4] = summary_res[4] + (summary_res[2] - summary_res[2])*100/math.abs(summary_res[5])
+						summary_res[4] = summary_res[4] + (summary_res[2] - res_1)*100/math.abs(summary_res[5])
 					end
 					summary_res[1] = 0
 					summary_res[3] = summary_res[3] + (summary_res[7] - comis)*prc_off
 					summary_res[5] = 0
-					filer_res:write(SEC.." BUY: date="..dt.." time="..tm.." res="..summary_res[2].." price="..tostring(prc_off), '\n')
+					filer_res:write(SEC.." BUY1: date="..dt.." time="..tm.." res="..summary_res[2].." price="..tostring(prc_off), '\n')
 				elseif summary_res[7] == 0 then
 					summary_res[1] = 1
 					summary_res[3] = summary_res[3]-(summary_res[1] + comis)*prc_off
 					summary_res[5] = last_deal[ir][6]
-					filer_res:write(SEC.." BUY: date="..dt.." time="..tm.." price="..tostring(prc_off), '\n')
+					filer_res:write(SEC.." BUY0: date="..dt.." time="..tm.." price="..tostring(prc_off), '\n')
 				end
 			elseif summary_res[1] > last_deal[ir][1] then
 				summary_res[7] = summary_res[1]
 				if summary_res[7] > 0 then
+					res_1 = summary_res[2]
 					summary_res[2] = summary_res[3]+(summary_res[7]-comis)*prc_bid
 					if math.abs(summary_res[5]) ~= 0 then
-						summary_res[4] = summary_res[4] + (summary_res[2] - summary_res[2])*100/math.abs(summary_res[5])
+						summary_res[4] = summary_res[4] + (summary_res[2] - res_1)*100/math.abs(summary_res[5])
 					end
 					summary_res[1] = 0
 					summary_res[3] = summary_res[3] + (summary_res[7] - comis) * prc_bid
 					summary_res[5] = 0.
-					filer_res:write(SEC.." SELL: date="..dt.." time="..tm.." res="..summary_res[2].." price="..tostring(prc_bid), '\n')
+					filer_res:write(SEC.." SELL1: date="..dt.." time="..tm.." res="..summary_res[2].." price="..tostring(prc_bid), '\n')
 				elseif summary_res[7] == 0 then
 					summary_res[1] = -dub_up
 					summary_res[3] = summary_res[3] - (summary_res[1] + comis)*prc_bid*dub_up
 					summary_res[5] = last_deal[ir][7] * dub_up
 					if dub_up == 1 then
-						filer_res:write(SEC.." SELL: date="..dt.." time="..tm.." price="..tostring(prc_bid), '\n')
+						filer_res:write(SEC.." SELL0: date="..dt.." time="..tm.." price="..tostring(prc_bid), '\n')
 					end
 				end
 			end
@@ -597,11 +599,11 @@ function stop_main(tb_res, ds)
 	elseif summary_res[1] < 0 then
 		res = summary_res[3] + (summary_res[1] - comis) * prc_off
 	end
-	filer_res:write(SEC.." result="..tostring(res), '\n')
+	filer_res:write(SEC.."stop result="..tostring(res), '\n')
 	for i=1, qsummax do 
-		filer[i]:write("Stop: date="..dt.." time="..tm, '\n')
-		filer[i]:write("Stop: summary result = "..string.format('%.2f', last_deal[i][4]).." %", '\n')
-		filer[i]:close()
+		-- filer[i]:write("Stop: date="..dt.." time="..tm, '\n')
+		-- filer[i]:write("Stop: summary result = "..string.format('%.2f', last_deal[i][4]).." %", '\n')
+		-- filer[i]:close()
 		-- prints(data_file_name[i],last_deal[i])
 	end
 		if not IsWindowClosed(tb_res) then

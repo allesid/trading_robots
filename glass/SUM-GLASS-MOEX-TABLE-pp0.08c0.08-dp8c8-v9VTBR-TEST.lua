@@ -12,7 +12,7 @@
 -- CLASS="CETS"  -- CURR
 
 CLASS="TQBR"
-SEC = "GAZP"
+SEC = "VTBR"
 
 -- CLASS="SPBFUT"
 

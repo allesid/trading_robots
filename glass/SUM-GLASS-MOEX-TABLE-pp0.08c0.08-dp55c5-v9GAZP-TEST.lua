@@ -23,9 +23,9 @@ qsummax = 20
 
 price_part = 0.08 -- цена выставления ордера между средним (бид и оффер) и бид/оффер макс в интервале [0.0-1.0]
 price_partc = 0.08 -- то же для сделки закрытия позиции
-dpart = 8 --коэффициент превышения суммы объема бид и оффер для сделки открытия позиции
+dpart = 55 --коэффициент превышения суммы объема бид и оффер для сделки открытия позиции
 -- например: сумма бидов умноженная на dpart > суммы офферов - покупка
-dpartc = 8 -- то же для сделки закрытия позиции
+dpartc = 5 -- то же для сделки закрытия позиции
 ver = "v9"..SEC.."-TEST" -- "WORK"
 
 --  ========    DATA    ====================
@@ -228,6 +228,8 @@ function OnInit(s)
 		end_of_name_res = EXCH.."-pp"..tostring(price_part).."c"..tostring(price_partc).."-dp"..tostring(dpart).."c"..tostring(dpartc).."-"..ver..".txt"
 		sum_result_fn = path_name.."Summary_Res-GLASS-"..end_of_name_res
 	filer_res=io.open(sum_result_fn, "a")
+	filer_res:write("========================================", '\n')
+	filer_res:write(SEC.."  "..tostring(dt).."  "..tostring(tm), '\n')
 end
 --  ============================================
 
@@ -381,7 +383,7 @@ function main()
 end
 --  ============================================
 function OnQuote(class_code, sec_code)
-	if class_code == CLASS and SEC == sec_code then
+	if class_code==CLASS and SEC==sec_code and tm>=stime and tm<etime and tm<start_time and tm>=end_time then
 		-- message("SEC="..SEC.." row="..row, 1)
 		qt = getQuoteLevel2(CLASS, SEC)
 		if tonumber(qt.bid_count)>=qsummax and tonumber(qt.offer_count)>=qsummax  then
@@ -599,7 +601,7 @@ function stop_main(tb_res, ds)
 	elseif summary_res[1] < 0 then
 		res = summary_res[3] + (summary_res[1] - comis) * prc_off
 	end
-	filer_res:write(SEC.."stop result="..tostring(res), '\n')
+	filer_res:write(SEC.." stop result="..tostring(res), '\n')
 	for i=1, qsummax do 
 		-- filer[i]:write("Stop: date="..dt.." time="..tm, '\n')
 		-- filer[i]:write("Stop: summary result = "..string.format('%.2f', last_deal[i][4]).." %", '\n')
