@@ -162,8 +162,6 @@ function OnInit(s)
 		-- if str then
 			-- len_SEC = 0
 			-- while str do
-			message("3 "..tostring(str))
-			message(str)
 					message(SEC, 1)
 				-- len_SEC = len_SEC + 1
 				-- SEC = string.match(str, sec_pattern)
@@ -383,7 +381,7 @@ function main()
 end
 --  ============================================
 function OnQuote(class_code, sec_code)
-	if class_code==CLASS and SEC==sec_code and tm>=stime and tm<etime and tm<start_time and tm>=end_time then
+	if class_code==CLASS and SEC==sec_code and (tm<stime or tm>=etime) and tm>=start_time and tm<end_time then
 		-- message("SEC="..SEC.." row="..row, 1)
 		qt = getQuoteLevel2(CLASS, SEC)
 		if tonumber(qt.bid_count)>=qsummax and tonumber(qt.offer_count)>=qsummax  then
@@ -485,6 +483,7 @@ function OnQuote(class_code, sec_code)
 					summary_res[2] = summary_res[3]+(summary_res[7]-comis)*prc_off
 					if math.abs(summary_res[5]) ~= 0 then
 						summary_res[4] = summary_res[4] + (summary_res[2] - res_1)*100/math.abs(summary_res[5])
+						message(SEC.." pct="..summary_res[4], 1)
 					end
 					summary_res[1] = 0
 					summary_res[3] = summary_res[3] + (summary_res[7] - comis)*prc_off
@@ -503,6 +502,7 @@ function OnQuote(class_code, sec_code)
 					summary_res[2] = summary_res[3]+(summary_res[7]-comis)*prc_bid
 					if math.abs(summary_res[5]) ~= 0 then
 						summary_res[4] = summary_res[4] + (summary_res[2] - res_1)*100/math.abs(summary_res[5])
+						message(SEC.." pct="..summary_res[4], 1)
 					end
 					summary_res[1] = 0
 					summary_res[3] = summary_res[3] + (summary_res[7] - comis) * prc_bid
