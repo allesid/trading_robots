@@ -327,15 +327,17 @@ function OnQuote(class_code, sec_code)
 			mbid_sum = 0
 			moff_sum = 0
 			for i=1,qsummax do 
-				if prc_off <= last_deal[i][6] then
-					if last_deal[i][6] > 0 then
-						if last_deal[i][1] < 1 then
+				if last_deal[i][6] > 0 then
+					if last_deal[i][1] < 1 then
+						if prc_off <= last_deal[i][6] then
 							ld_1 = last_deal[i][1]
 							bidS = math.abs(last_deal[i][6])
+							last_deal[i][6] = 0. 
 							if ld_1 < 0  then
 								res = last_deal[i][3] + (ld_1 - comis) * bidS
 								if math.abs(last_deal[i][5]) ~= 0 then
 									last_deal[i][4] = last_deal[i][4] + (res - last_deal[i][2])*100/math.abs(last_deal[i][5])
+									-- SetCell(tb_res, row_sum, 4, string.format('%.2f',tostring(summary_res[4])).."%")
 								end
 								last_deal[i][1] = 0
 								last_deal[i][3] = last_deal[i][3] + (ld_1 - comis) * bidS
@@ -350,13 +352,13 @@ function OnQuote(class_code, sec_code)
 							end
 						end
 					end
-					last_deal[i][6] = 0. 
 				end
 				if last_deal[i][7] < 0 then
-					if prc_bid >= -last_deal[i][7] then
-						if last_deal[i][1] > -dub_up then
+					if last_deal[i][1] > -dub_up then
+						if prc_bid >= -last_deal[i][7] then
 							ld_1 = last_deal[i][1]
 							offS = math.abs(last_deal[i][7])
+							last_deal[i][7] = 0.
 							if ld_1 > 0 then
 								res = last_deal[i][3]+(ld_1-comis)*offS
 								if math.abs(last_deal[i][5]) ~= 0 then
@@ -374,7 +376,6 @@ function OnQuote(class_code, sec_code)
 								summary_res[6] = i
 							end
 						end
-						last_deal[i][7] = 0.
 					end
 				end
 

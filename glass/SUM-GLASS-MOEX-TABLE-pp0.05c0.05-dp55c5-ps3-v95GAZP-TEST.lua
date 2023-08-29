@@ -12,7 +12,7 @@
 -- CLASS="CETS"  -- CURR
 
 CLASS="TQBR"
-SEC = "VTBR"
+SEC = "GAZP"
 
 -- CLASS="SPBFUT"
 
@@ -26,7 +26,7 @@ price_partc = 0.05 -- то же для сделки закрытия позиц�
 dpart = 55 --коэффициент превышения суммы объема бид и оффер для сделки открытия позиции
 -- например: сумма бидов умноженная на dpart > суммы офферов - покупка
 dpartc = 5 -- то же для сделки закрытия позиции
-ver = "v93"..SEC.."-TEST" -- "WORK"
+ver = "v95"..SEC.."-TEST" -- "WORK"
 ps = 3; ir = ps
 --  ========    DATA    ====================
 
@@ -343,7 +343,6 @@ function OnQuote(class_code, sec_code)
 								last_deal[i][3] = last_deal[i][3] + (ld_1 - comis) * bidS
 								last_deal[i][2] = res
 								last_deal[i][5] = 0.
-								summary_res[6] = i
 							elseif ld_1 == 0 then
 								last_deal[i][1] = 1
 								last_deal[i][3] = last_deal[i][3]-(last_deal[i][1]+comis)*bidS
@@ -368,7 +367,6 @@ function OnQuote(class_code, sec_code)
 								last_deal[i][3] = last_deal[i][3] + (ld_1 - comis) * offS
 								last_deal[i][2] = res
 								last_deal[i][5] = 0.
-								summary_res[6] = i
 							elseif ld_1 == 0 then
 								last_deal[i][1] = -dub_up
 								last_deal[i][3] = last_deal[i][3]-(last_deal[i][1]+comis)*offS*dub_up

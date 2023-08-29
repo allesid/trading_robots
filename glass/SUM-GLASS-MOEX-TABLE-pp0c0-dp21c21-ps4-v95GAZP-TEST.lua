@@ -12,7 +12,7 @@
 -- CLASS="CETS"  -- CURR
 
 CLASS="TQBR"
-SEC = "VTBR"
+SEC = "GAZP"
 
 -- CLASS="SPBFUT"
 
@@ -21,13 +21,13 @@ SEC = "VTBR"
 path_name = "C:/Projects/trading_robots/glass/results/"
 qsummax = 20
 
-price_part = 0.05 -- цена выставления ордера между средним (бид и оффер) и бид/оффер макс в интервале [0.0-1.0]
-price_partc = 0.05 -- то же для сделки закрытия позиции
-dpart = 55 --коэффициент превышения суммы объема бид и оффер для сделки открытия позиции
+price_part = 0 -- цена выставления ордера между средним (бид и оффер) и бид/оффер макс в интервале [0.0-1.0]
+price_partc = 0 -- то же для сделки закрытия позиции
+dpart = 21 --коэффициент превышения суммы объема бид и оффер для сделки открытия позиции
 -- например: сумма бидов умноженная на dpart > суммы офферов - покупка
-dpartc = 5 -- то же для сделки закрытия позиции
-ver = "v93"..SEC.."-TEST" -- "WORK"
-ps = 3; ir = ps
+dpartc = 21 -- то же для сделки закрытия позиции
+ver = "v95"..SEC.."-TEST" -- "WORK"
+ps = 4; ir = ps
 --  ========    DATA    ====================
 
 stime = 2500
@@ -343,7 +343,6 @@ function OnQuote(class_code, sec_code)
 								last_deal[i][3] = last_deal[i][3] + (ld_1 - comis) * bidS
 								last_deal[i][2] = res
 								last_deal[i][5] = 0.
-								summary_res[6] = i
 							elseif ld_1 == 0 then
 								last_deal[i][1] = 1
 								last_deal[i][3] = last_deal[i][3]-(last_deal[i][1]+comis)*bidS
@@ -368,7 +367,6 @@ function OnQuote(class_code, sec_code)
 								last_deal[i][3] = last_deal[i][3] + (ld_1 - comis) * offS
 								last_deal[i][2] = res
 								last_deal[i][5] = 0.
-								summary_res[6] = i
 							elseif ld_1 == 0 then
 								last_deal[i][1] = -dub_up
 								last_deal[i][3] = last_deal[i][3]-(last_deal[i][1]+comis)*offS*dub_up
