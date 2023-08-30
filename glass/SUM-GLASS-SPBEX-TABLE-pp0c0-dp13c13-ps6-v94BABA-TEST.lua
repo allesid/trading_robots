@@ -7,12 +7,12 @@
 
 -- CLASS="SPBDE"
 
--- CLASS="SPBXM"
+CLASS="SPBXM"
 
-CLASS="CETS"  -- CURR
+-- CLASS="CETS"  -- CURR
 
 -- CLASS="TQBR"
-SEC = "HKDRUB_TOM"
+SEC = "BABA_XM"
 
 -- CLASS="SPBFUT"
 
@@ -21,13 +21,13 @@ SEC = "HKDRUB_TOM"
 path_name = "C:/Projects/trading_robots/glass/results/"
 qsummax = 20
 
-price_part = 0.05 -- цена выставления ордера между средним (бид и оффер) и бид/оффер макс в интервале [0.0-1.0]
-price_partc = 0.05 -- то же для сделки закрытия позиции
-dpart = 55 --коэффициент превышения суммы объема бид и оффер для сделки открытия позиции
+price_part = 0 -- цена выставления ордера между средним (бид и оффер) и бид/оффер макс в интервале [0.0-1.0]
+price_partc = 0 -- то же для сделки закрытия позиции
+dpart = 13 --коэффициент превышения суммы объема бид и оффер для сделки открытия позиции
 -- например: сумма бидов умноженная на dpart > суммы офферов - покупка
-dpartc = 5 -- то же для сделки закрытия позиции
-ver = "v93"..SEC.."-TEST" -- "WORK"
-ps = 5; ir = ps
+dpartc = 13 -- то же для сделки закрытия позиции
+ver = "v94"..SEC.."-TEST" -- "WORK"
+ps = 6; ir = ps
 --  ========    DATA    ====================
 
 stime = 2500
@@ -346,15 +346,15 @@ function OnQuote(class_code, sec_code)
 							elseif ld_1 == 0 then
 								last_deal[i][1] = 1
 								last_deal[i][3] = last_deal[i][3]-(last_deal[i][1]+comis)*bidS
-								last_deal[i][5] = bidS
+								last_deal[i][5] = last_deal[i][6]
 								summary_res[6] = i
 							end
 						end
 					end
 					last_deal[i][6] = 0. 
 				end
-				if last_deal[i][7] < 0 then
-					if prc_bid >= -last_deal[i][7] then
+				if prc_bid >= -last_deal[i][7] then
+					if last_deal[i][7] < 0 then
 						if last_deal[i][1] > -dub_up then
 							ld_1 = last_deal[i][1]
 							offS = math.abs(last_deal[i][7])
@@ -371,12 +371,12 @@ function OnQuote(class_code, sec_code)
 							elseif ld_1 == 0 then
 								last_deal[i][1] = -dub_up
 								last_deal[i][3] = last_deal[i][3]-(last_deal[i][1]+comis)*offS*dub_up
-								last_deal[i][5] = -offS * dub_up
+								last_deal[i][5] = last_deal[i][7] * dub_up
 								summary_res[6] = i
 							end
 						end
-						last_deal[i][7] = 0.
 					end
+					last_deal[i][7] = 0.
 				end
 
 				qt_bid_sum = qt_bid_sum + tonumber(qt.bid[1+qt.bid_count-i].quantity)
@@ -394,16 +394,12 @@ function OnQuote(class_code, sec_code)
 					if qt_bid_sum*dpart < qt_of_sum then
 						prc_deal = (price_p * prc_bid + (1.0-price_p) * moff_sum / qt_of_sum)
 						last_deal[i][7] = -(prc_deal - (prc_deal - prc_off)%PRICE_STEP)
-					else
-						last_deal[i][7] = 0
 					end
 				end
 				if last_deal[i][1]<=0 then
 					if qt_bid_sum > qt_of_sum*dpart then
 						prc_deal = (price_p * prc_off + (1.0-price_p) * mbid_sum / qt_bid_sum)
 						last_deal[i][6] = prc_deal + (prc_bid - prc_deal)%PRICE_STEP
-					else
-						last_deal[i][6] = 0
 					end
 				end
 			end

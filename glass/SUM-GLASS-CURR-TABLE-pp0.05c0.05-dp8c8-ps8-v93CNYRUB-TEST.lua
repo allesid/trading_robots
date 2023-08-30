@@ -346,7 +346,7 @@ function OnQuote(class_code, sec_code)
 							elseif ld_1 == 0 then
 								last_deal[i][1] = 1
 								last_deal[i][3] = last_deal[i][3]-(last_deal[i][1]+comis)*bidS
-								last_deal[i][5] = last_deal[i][6]
+								last_deal[i][5] = bidS
 								summary_res[6] = i
 							end
 						end
@@ -371,7 +371,7 @@ function OnQuote(class_code, sec_code)
 							elseif ld_1 == 0 then
 								last_deal[i][1] = -dub_up
 								last_deal[i][3] = last_deal[i][3]-(last_deal[i][1]+comis)*offS*dub_up
-								last_deal[i][5] = last_deal[i][7] * dub_up
+								last_deal[i][5] = -offS * dub_up
 								summary_res[6] = i
 							end
 						end
