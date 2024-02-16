@@ -1,0 +1,20 @@
+=========================================
+Start: date=25.01.2024 time=1551 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-CNYRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=25.01.2024 time=1553 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-CNYRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+CNYRUB_TOM BYE  time=1630 lots=1 ldd=1 prc=12.38 res=0.0 pct=0.0 ld=1 ld2=0
+Stop: date=25.01.2024 time=1806 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-CNYRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=25.01.2024 time=1807 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-CNYRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=26.01.2024 time=927 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-CNYRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+Stop: date=26.01.2024 time=1623 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-CNYRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=26.01.2024 time=1752 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-CNYRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+CNYRUB_TOM SELL time=1800 lots=-1 ldd=0 prc=12.479 res=0.091309249999998 pct=0.73170326147927 ld=0 ld2=1
+=========================================
+Start: date=29.01.2024 time=1131 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-CNYRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+Stop: date=29.01.2024 time=1131 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-CNYRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=29.01.2024 time=1246 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-CNYRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+Stop: date=29.01.2024 time=1247 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-CNYRUB_TOM-v6.2.3dub-indP-TEST-online.txt

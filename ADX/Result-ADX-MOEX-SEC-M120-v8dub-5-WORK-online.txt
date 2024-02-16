@@ -1,0 +1,25 @@
+=========================================
+Start: date=12.02.2024 time=2213 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-5-WORK-online.txt
+=========================================
+Start: date=12.02.2024 time=2214 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-5-WORK-online.txt
+Stop: date=12.02.2024 time=2336 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-5-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=1002 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-5-WORK-online.txt
+AFKS BYE  time=1147 lots=1 ldd=1 prc=17.92 res=0.0 pct=0
+AFLT SELL time=1147 lots=-1 ldd=-1 prc=39.72 res=0.0 pct=0
+ALRS BYE  time=1147 lots=1 ldd=1 prc=67.86 res=0.0 pct=0
+CHMF SELL time=1147 lots=-1 ldd=-1 prc=1600.6 res=0.0 pct=0
+GAZP SELL time=1147 lots=-1 ldd=-1 prc=163.11 res=0.0 pct=0
+HYDR SELL time=1147 lots=-1 ldd=-1 prc=0.7681 res=0.0 pct=0
+MOEX SELL time=1147 lots=-1 ldd=-1 prc=200.2 res=0.0 pct=0
+MTSS SELL time=1147 lots=-1 ldd=-1 prc=276.1 res=0.0 pct=0
+NLMK BYE  time=1147 lots=1 ldd=1 prc=198.62 res=0.0 pct=0
+NVTK BYE  time=1147 lots=1 ldd=1 prc=1409.80 res=0.0 pct=0
+ROSN BYE  time=1147 lots=1 ldd=1 prc=590.90 res=0.0 pct=0
+SBER BYE  time=1147 lots=1 ldd=1 prc=287.13 res=0.0 pct=0
+SBERP BYE  time=1147 lots=1 ldd=1 prc=287.13 res=0.0 pct=0
+SNGS BYE  time=1147 lots=1 ldd=1 prc=30.32 res=0.0 pct=0
+TATN SELL time=1147 lots=-1 ldd=-1 prc=714.2 res=0.0 pct=0
+TATNP BYE  time=1147 lots=1 ldd=1 prc=712.40 res=0.0 pct=0
+VTBR BYE  time=1147 lots=1 ldd=1 prc=0.02 res=0.0 pct=0
+Stop: date=13.02.2024 time=1335 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-5-WORK-online.txt

@@ -1,0 +1,55 @@
+=========================================
+Start: date=12.02.2024 time=2209 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-5-WORK-online.txt
+=========================================
+Start: date=12.02.2024 time=2209 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-5-WORK-online.txt
+SBERP SELL time=2327 lots=-1 ldd=-1 prc=287.05 res=0.0 pct=0 ld=-1 ld2=1
+Stop: date=12.02.2024 time=2329 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-5-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=1003 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-5-WORK-online.txt
+AFLT SELL time=1057 lots=-1 ldd=-1 prc=39.8 res=0.0 pct=0 ld=-1 ld2=1
+NLMK SELL time=1057 lots=-1 ldd=-1 prc=198.82 res=0.0 pct=0 ld=-1 ld2=1
+ROSN BYE  time=1157 lots=1 ldd=1 prc=590.85 res=0.0 pct=0 ld=1 ld2=-1
+MOEX SELL time=1227 lots=-1 ldd=-1 prc=200.6 res=0.0 pct=0 ld=-1 ld2=1
+MTSS SELL time=1227 lots=-1 ldd=-1 prc=276.8 res=0.0 pct=0 ld=-1 ld2=1
+AFKS SELL time=1257 lots=-1 ldd=-1 prc=17.925 res=0.0 pct=0 ld=-1 ld2=1
+VTBR SELL time=1257 lots=-1 ldd=-1 prc=0.024505 res=0.0 pct=0 ld=-1 ld2=1
+GAZP SELL time=1258 lots=-1 ldd=-1 prc=162.8 res=0.0 pct=0 ld=-1 ld2=1
+TATNP SELL time=1629 lots=-1 ldd=-1 prc=712.4 res=0.0 pct=0 ld=-1 ld2=1
+TATN SELL time=1957 lots=-1 ldd=-1 prc=714.8 res=0.0 pct=0 ld=-1 ld2=1
+ALRS BYE  time=2158 lots=1 ldd=1 prc=68.36 res=0.0 pct=0 ld=1 ld2=-1
+ROSN SELL time=2257 lots=-2 ldd=-1 prc=592.85 res=1.704575 pct=0.28849538800033 ld=-1 ld2=1
+=========================================
+Start: date=14.02.2024 time=842 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-5-WORK-online.txt
+SBERP BYE  time=1057 lots=2 ldd=1 prc=288.49 res=-1.583525 pct=-0.5516547639784 ld=1 ld2=-1
+Stop: date=14.02.2024 time=1135 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-5-WORK-online.txt
+=========================================
+Start: date=14.02.2024 time=1147 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-5-WORK-online.txt
+NVTK SELL time=1227 lots=-1 ldd=-1 prc=1422.0 res=0.0 pct=0 ld=-1 ld2=1
+ALRS SELL time=1357 lots=-2 ldd=-1 prc=68.48 res=0.085819999999998 pct=0.12554125219426 ld=-1 ld2=1
+SNGS SELL time=1527 lots=-1 ldd=-1 prc=30.68 res=0.0 pct=0 ld=-1 ld2=1
+SBERP SELL time=2157 lots=-2 ldd=-1 prc=288.68 res=-1.682015 pct=-0.58579459551501 ld=-1 ld2=1
+=========================================
+Start: date=15.02.2024 time=1024 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-5-WORK-online.txt
+Stop: date=15.02.2024 time=1122 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-5-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1216 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-5-WORK-online.txt
+Stop: date=15.02.2024 time=1402 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-5-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1538 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-5-WORK-online.txt
+CHMF SELL time=1558 lots=-1 ldd=-1 prc=1602.2 res=0.0 pct=0 ld=-1 ld2=1
+SBERP BYE  time=1657 lots=2 ldd=1 prc=289.07 res=-2.360695 pct=-0.82089228153414 ld=1 ld2=-1
+AFKS BYE  time=1727 lots=2 ldd=1 prc=18.04 res=-0.1239625 pct=-0.69156206415619 ld=1 ld2=-1
+NLMK BYE  time=1727 lots=2 ldd=1 prc=198.88 res=-0.15941000000001 pct=-0.080178050497942 ld=1 ld2=-1
+GAZP BYE  time=1759 lots=2 ldd=1 prc=162.00 res=0.71860000000001 pct=0.4414004914005 ld=1 ld2=-1
+NLMK SELL time=1759 lots=-2 ldd=-1 prc=198.74 res=-0.49829 pct=-0.25057225806029 ld=-1 ld2=1
+HYDR BYE  time=2027 lots=1 ldd=1 prc=0.76 res=0.0 pct=0 ld=1 ld2=-1
+AFKS SELL time=2059 lots=-2 ldd=-1 prc=18.129 res=-0.053002499999995 pct=-0.29821394885684 ld=-1 ld2=1
+SBER SELL time=2227 lots=-1 ldd=-1 prc=289.99 res=0.0 pct=0 ld=-1 ld2=1
+SNGS BYE  time=2227 lots=2 ldd=1 prc=30.74 res=-0.075339999999997 pct=-0.24556714471968 ld=1 ld2=-1
+SBERP SELL time=2257 lots=-2 ldd=-1 prc=289.81 res=-1.909765 pct=-0.66489892352396 ld=-1 ld2=1
+=========================================
+Start: date=16.02.2024 time=1015 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-5-WORK-online.txt
+NLMK BYE  time=1057 lots=2 ldd=1 prc=200.52 res=-2.47703 pct=-1.246214806113 ld=1 ld2=-1
+SNGS SELL time=1327 lots=-2 ldd=-1 prc=30.965 res=0.11892 pct=0.38637820336098 ld=-1 ld2=1
+NLMK SELL time=1527 lots=-2 ldd=-1 prc=198.16 res=-5.03755 pct=-2.5231547622271 ld=-1 ld2=1
+Stop: date=16.02.2024 time=1529 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-5-WORK-online.txt

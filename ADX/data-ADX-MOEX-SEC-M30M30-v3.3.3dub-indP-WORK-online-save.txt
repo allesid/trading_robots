@@ -1,0 +1,32 @@
+sec_AFKS openps_1
+sec_AFLT openps_5
+sec_ALRS openps_2
+sec_CHMF openps_1
+sec_GAZP openps_1
+sec_HYDR openps_2
+sec_MOEX openps_1
+sec_MTSS openps_1
+sec_NLMK openps_1
+sec_NVTK openps_1
+sec_ROSN openps_3
+sec_SBER openps_1
+sec_SBERP openps_1
+sec_SNGS openps_1
+sec_TATN openps_2
+sec_TATNP openps_2
+sec_VTBR openps_8
+
+sec_AFLT openps_5
+sec_ALRS openps_2
+sec_CHMF openps_1
+sec_GAZP openps_1
+sec_HYDR openps_2
+sec_MOEX openps_1
+sec_MTSS openps_1
+sec_NVTK openps_1
+sec_ROSN openps_3
+sec_SBER openps_1
+sec_SBERP openps_1
+sec_SNGS openps_1
+sec_VTBR openps_8
+

@@ -1,0 +1,26 @@
+=========================================
+Start: date=14.02.2024 time=2050 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-9-WORK-online.txt
+=========================================
+Start: date=14.02.2024 time=2051 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-9-WORK-online.txt
+Stop: date=14.02.2024 time=2211 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-9-WORK-online.txt
+=========================================
+Start: date=14.02.2024 time=2222 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-9-WORK-online.txt
+NVTK SELL time=2315 lots=-1 ldd=-1 prc=1412.0 res=0.0 pct=0
+VTBR BYE  time=2315 lots=1 ldd=1 prc=0.02 res=0.0 pct=0
+=========================================
+Start: date=15.02.2024 time=1019 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-9-WORK-online.txt
+VTBR SELL time=1115 lots=-1 ldd=0 prc=0.02438 res=-0.000122245 pct=-0.4991629236423
+GAZP SELL time=1121 lots=-1 ldd=-1 prc=161.4 res=0.0 pct=0
+Stop: date=15.02.2024 time=1123 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-9-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1206 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-9-WORK-online.txt
+ALRS SELL time=1359 lots=-1 ldd=-1 prc=68.03 res=0.0 pct=0
+Stop: date=15.02.2024 time=1402 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-9-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1536 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-9-WORK-online.txt
+GAZP BYE  time=1540 lots=1 ldd=0 prc=162.08 res=-0.76070000000001 pct=-0.47131350681537
+VTBR BYE  time=1540 lots=1 ldd=1 prc=0.02 res=-0.000134435 pct=-0.4991629236423
+MOEX SELL time=1715 lots=-1 ldd=-1 prc=198.05 res=0.0 pct=0
+ALRS BYE  time=1915 lots=1 ldd=0 prc=68.24 res=-0.24401499999999 pct=-0.35868734381889
+GAZP SELL time=2314 lots=-1 ldd=-1 prc=161.66 res=-0.84174000000001 pct=-0.47131350681537
+VTBR SELL time=2314 lots=-1 ldd=0 prc=0.024385 res=-0.00015163 pct=-0.56966312864434

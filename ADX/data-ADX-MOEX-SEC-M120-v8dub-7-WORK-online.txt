@@ -1,0 +1,17 @@
+sec_AFKS ld_1 res_0.0 pos_-18.0780345 pospct_0 prc_18.069 openps_1
+sec_AFLT ld_0 res_0 pos_0 pospct_0 prc_0 openps_5
+sec_ALRS ld_-1 res_-1.89279 pos_66.1491 pospct_-2.7718066887025 prc_68.11 openps_2
+sec_CHMF ld_0 res_0 pos_0 pospct_0 prc_0 openps_1
+sec_GAZP ld_-1 res_0.0 pos_162.17887 pospct_0 prc_162.26 openps_1
+sec_HYDR ld_0 res_0 pos_0 pospct_0 prc_0 openps_2
+sec_MOEX ld_0 res_0 pos_0 pospct_0 prc_0 openps_1
+sec_MTSS ld_0 res_0 pos_0 pospct_0 prc_0 openps_1
+sec_NLMK ld_1 res_-0.43870000000001 pos_-198.37644 pospct_-0.22223910840933 prc_197.74 openps_1
+sec_NVTK ld_-1 res_0.0 pos_1410.6943 pospct_0 prc_1411.4 openps_1
+sec_ROSN ld_0 res_0 pos_0 pospct_0 prc_0 openps_3
+sec_SBER ld_1 res_0.0 pos_-286.72329 pospct_0 prc_286.58 openps_1
+sec_SBERP ld_1 res_0.0 pos_-287.273565 pospct_0 prc_287.13 openps_1
+sec_SNGS ld_0 res_0 pos_0 pospct_0 prc_0 openps_1
+sec_TATN ld_0 res_0 pos_0 pospct_0 prc_0 openps_2
+sec_TATNP ld_0 res_0 pos_0 pospct_0 prc_0 openps_2
+sec_VTBR ld_1 res_-0.0002065775 pos_-0.0247260725 pospct_23473.476899634 prc_0.024495 openps_8

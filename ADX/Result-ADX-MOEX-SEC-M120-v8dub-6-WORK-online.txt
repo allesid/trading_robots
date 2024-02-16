@@ -1,0 +1,112 @@
+=========================================
+Start: date=13.02.2024 time=1335 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-6-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=1340 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-6-WORK-online.txt
+AFLT SELL time=1347 lots=-1 ldd=-1 prc=39.55 res=0.0 pct=0
+CHMF BYE  time=1347 lots=1 ldd=1 prc=1612.00 res=0.0 pct=0
+HYDR SELL time=1347 lots=-1 ldd=-1 prc=0.7654 res=0.0 pct=0
+MOEX BYE  time=1347 lots=1 ldd=1 prc=201.41 res=0.0 pct=0
+NLMK BYE  time=1347 lots=1 ldd=1 prc=198.02 res=0.0 pct=0
+NVTK BYE  time=1347 lots=1 ldd=1 prc=1420.00 res=0.0 pct=0
+SBERP SELL time=1347 lots=-1 ldd=-1 prc=286.39 res=0.0 pct=0
+SNGS SELL time=1347 lots=-1 ldd=-1 prc=30.24 res=0.0 pct=0
+TATN BYE  time=1347 lots=1 ldd=1 prc=715.60 res=0.0 pct=0
+TATNP BYE  time=1347 lots=1 ldd=1 prc=712.40 res=0.0 pct=0
+VTBR SELL time=1347 lots=-1 ldd=-1 prc=0.02442 res=0.0 pct=0
+SBER SELL time=1548 lots=-1 ldd=-1 prc=286.01 res=0.0 pct=0
+ALRS SELL time=1550 lots=-1 ldd=-1 prc=67.84 res=0.0 pct=0
+GAZP SELL time=1550 lots=-1 ldd=-1 prc=162.32 res=0.0 pct=0
+NLMK SELL time=1550 lots=-2 ldd=-1 prc=197.28 res=-0.83901 pct=-0.42369962630037
+TATNP SELL time=1553 lots=-2 ldd=-1 prc=711.9 res=-0.85619999999994 pct=-0.12018528916338
+AFKS SELL time=1747 lots=-1 ldd=-1 prc=18.034 res=0.0 pct=0
+ALRS BYE  time=1747 lots=2 ldd=1 prc=67.94 res=-0.13391999999999 pct=-0.19740566037734
+CHMF SELL time=1747 lots=-2 ldd=-1 prc=1604.6 res=-8.2060000000001 pct=-0.50905707196031
+MOEX SELL time=1747 lots=-2 ldd=-1 prc=199.6 res=-1.910705 pct=-0.94866441586813
+MTSS BYE  time=1747 lots=1 ldd=1 prc=282.35 res=0.0 pct=0
+NVTK SELL time=1747 lots=-2 ldd=-1 prc=1413.0 res=-7.71 pct=-0.54295774647888
+ROSN BYE  time=1747 lots=1 ldd=1 prc=591.75 res=0.0 pct=0
+SBER BYE  time=1747 lots=2 ldd=1 prc=286.55 res=-0.68300500000004 pct=-0.23880458725221
+SBERP BYE  time=1747 lots=2 ldd=1 prc=286.71 res=-0.46319499999998 pct=-0.16173574496316
+SNGS BYE  time=1747 lots=2 ldd=1 prc=30.63 res=-0.40012 pct=-1.3231481481482
+TATNP BYE  time=1747 lots=2 ldd=1 prc=713.80 res=-3.4680999999999 pct=-0.48707670649728
+AFKS BYE  time=1947 lots=2 ldd=1 prc=18.03 res=-0.0050170000000023 pct=-0.02781967394922
+HYDR BYE  time=1947 lots=2 ldd=1 prc=0.77 res=-0.0054827 pct=-0.71631826495949
+TATN SELL time=1947 lots=-2 ldd=-1 prc=714.7 res=-1.2578 pct=-0.17576858580212
+TATNP SELL time=1947 lots=-2 ldd=-1 prc=712.4 res=-5.5818999999999 pct=-0.78321007718934
+AFLT BYE  time=2147 lots=2 ldd=1 prc=39.58 res=-0.049775000000004 pct=-0.12585335018964
+MOEX BYE  time=2147 lots=2 ldd=1 prc=200.01 res=-2.520305 pct=-1.2540752375114
+NLMK BYE  time=2147 lots=2 ldd=1 prc=197.54 res=-1.29629 pct=-0.6554920026183
+AFLT SELL time=2347 lots=-2 ldd=-1 prc=39.6 res=-0.069355000000002 pct=-0.17532277919419
+ALRS SELL time=2347 lots=-2 ldd=-1 prc=68.12 res=-0.021859999999975 pct=-0.032466007742644
+CHMF BYE  time=2347 lots=2 ldd=1 prc=1608.20 res=-13.4106 pct=-0.83341205139443
+MOEX SELL time=2347 lots=-2 ldd=-1 prc=199.98 res=-2.750315 pct=-1.3690744875489
+MTSS SELL time=2347 lots=-2 ldd=-1 prc=280.85 res=-1.641175 pct=-0.5812555339118
+ROSN SELL time=2347 lots=-2 ldd=-1 prc=592.55 res=0.50412499999993 pct=0.085192226446968
+NVTK BYE  time=2349 lots=2 ldd=1 prc=1422.00 res=-18.123 pct=-1.2799004216381
+=========================================
+Start: date=14.02.2024 time=842 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-6-WORK-online.txt
+AFKS SELL time=1147 lots=-2 ldd=-1 prc=18.052 res=-0.0010469999999998 pct=-0.0058008164894169
+ALRS BYE  time=1147 lots=2 ldd=1 prc=68.61 res=-0.57998000000001 pct=-0.85178485683253
+CHMF SELL time=1147 lots=-2 ldd=-1 prc=1615.8 res=-7.4188000000001 pct=-0.46083401383692
+HYDR SELL time=1147 lots=-2 ldd=-1 prc=0.7675 res=-0.0092532000000001 pct=-1.2056758249855
+MOEX BYE  time=1147 lots=2 ldd=1 prc=199.85 res=-2.820295 pct=-1.4040679868988
+MTSS BYE  time=1147 lots=2 ldd=1 prc=282.95 res=-4.022025 pct=-1.4289856389501
+VTBR BYE  time=1147 lots=2 ldd=1 prc=0.02 res=-9.2210000000002e-05 pct=-0.37760032760034
+CHMF BYE  time=1347 lots=2 ldd=1 prc=1620.80 res=-14.0346 pct=-0.87027825198521
+MOEX SELL time=1347 lots=-2 ldd=-1 prc=199.77 res=-3.100145 pct=-1.5440980094157
+NVTK SELL time=1347 lots=-2 ldd=-1 prc=1422.2 res=-19.345 pct=-1.3658357240291
+AFKS BYE  time=1547 lots=2 ldd=1 prc=18.17 res=-0.139099 pct=-0.77054710498932
+NLMK SELL time=1547 lots=-2 ldd=-1 prc=196.46 res=-2.57383 pct=-1.3022167166003
+GAZP BYE  time=1747 lots=2 ldd=1 prc=162.28 res=-0.041159999999991 pct=-0.025357318876288
+NLMK BYE  time=1747 lots=2 ldd=1 prc=196.94 res=-3.25029 pct=-1.6465412610368
+SBERP SELL time=1747 lots=-2 ldd=-1 prc=289.69 res=2.230095 pct=0.77764202351369
+CHMF SELL time=1759 lots=-2 ldd=-1 prc=1613.0 res=-23.4554 pct=-1.4515220821925
+ALRS SELL time=1947 lots=-2 ldd=-1 prc=68.66 res=-0.59859000000002 pct=-0.87890918273256
+HYDR BYE  time=1947 lots=2 ldd=1 prc=0.77 res=-0.0093207000000002 pct=-1.2144706132591
+MTSS SELL time=1947 lots=-2 ldd=-1 prc=283.1 res=-4.154975 pct=-1.4759727391444
+NLMK SELL time=1947 lots=-2 ldd=-1 prc=196.7 res=-3.68723 pct=-1.868405788304
+NVTK BYE  time=1947 lots=2 ldd=1 prc=1419.00 res=-17.5672 pct=-1.2408322083492
+AFKS SELL time=2147 lots=-2 ldd=-1 prc=18.05 res=-0.279271 pct=-1.5419096407586
+NVTK SELL time=2147 lots=-2 ldd=-1 prc=1414.2 res=-23.7862 pct=-1.6790985931272
+SBER SELL time=2147 lots=-2 ldd=-1 prc=288.77 res=1.250445 pct=0.43592931608054
+SNGS SELL time=2147 lots=-2 ldd=-1 prc=30.4 res=-0.655745 pct=-2.1578420256992
+TATNP BYE  time=2147 lots=2 ldd=1 prc=706.20 res=-0.094300000000089 pct=-0.012912491563314
+VTBR SELL time=2147 lots=-2 ldd=-1 prc=0.024425 res=-0.00019171 pct=-0.78372277657994
+AFLT BYE  time=2347 lots=2 ldd=1 prc=39.46 res=0.031044999999999 pct=0.078212574341166
+CHMF BYE  time=2347 lots=2 ldd=1 prc=1608.20 res=-20.2684 pct=-1.2539399371212
+GAZP SELL time=2347 lots=-2 ldd=-1 prc=161.71 res=-0.77343999999999 pct=-0.4766020810158
+HYDR SELL time=2347 lots=-2 ldd=-1 prc=0.7651 res=-0.0117875 pct=-1.5361711870723
+MTSS BYE  time=2347 lots=2 ldd=1 prc=283.45 res=-4.7880749999999 pct=-1.6996039648597
+NLMK BYE  time=2347 lots=2 ldd=1 prc=196.58 res=-3.76393 pct=-1.9073991792547
+VTBR BYE  time=2347 lots=2 ldd=1 prc=0.02 res=-0.00027613500000001 pct=-1.1293727254029
+=========================================
+Start: date=15.02.2024 time=1109 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-6-WORK-online.txt
+Stop: date=15.02.2024 time=1122 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-6-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1216 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-6-WORK-online.txt
+TATNP SELL time=1347 lots=-2 ldd=-1 prc=704.1 res=-2.9005 pct=-0.41027867677995
+Stop: date=15.02.2024 time=1402 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-6-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1537 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-6-WORK-online.txt
+GAZP BYE  time=1546 lots=2 ldd=1 prc=161.90 res=-1.12515 pct=-0.69409636089956
+HYDR BYE  time=1546 lots=2 ldd=1 prc=0.76 res=-0.0080526000000001 pct=-1.048012776407
+MTSS SELL time=1546 lots=-2 ldd=-1 prc=281.15 res=-7.371525 pct=-2.6110345522649
+SBER BYE  time=1546 lots=2 ldd=1 prc=289.06 res=0.67167499999999 pct=0.23550337155721
+SBERP BYE  time=1546 lots=2 ldd=1 prc=289.00 res=2.630405 pct=0.9158276702395
+SNGS BYE  time=1546 lots=2 ldd=1 prc=30.63 res=-0.916145 pct=-3.0144209730676
+TATN BYE  time=1546 lots=2 ldd=1 prc=709.80 res=2.9275 pct=0.40983376483451
+TATNP BYE  time=1546 lots=2 ldd=1 prc=708.00 res=-7.5046 pct=-1.0641772707297
+HYDR SELL time=1746 lots=-2 ldd=-1 prc=0.7584 res=-0.0110132 pct=-1.4372581090392
+AFKS BYE  time=1946 lots=2 ldd=1 prc=18.12 res=-0.366321 pct=-2.0241811089026
+ALRS BYE  time=1946 lots=2 ldd=1 prc=68.17 res=-0.17725 pct=-0.26524766219656
+GAZP SELL time=1946 lots=-2 ldd=-1 prc=161.87 res=-1.31705 pct=-0.812626317663
+MTSS BYE  time=1946 lots=2 ldd=1 prc=281.80 res=-8.3026750000001 pct=-2.942227865443
+NVTK BYE  time=1946 lots=2 ldd=1 prc=1408.80 res=-19.8004 pct=-1.3972572694106
+ROSN BYE  time=1946 lots=2 ldd=1 prc=590.30 res=2.1615750000001 pct=0.36490701844767
+TATN SELL time=1946 lots=-2 ldd=-1 prc=708.8 res=1.2177 pct=0.16894900856514
+TATNP SELL time=1946 lots=-2 ldd=-1 prc=707.4 res=-8.8126 pct=-1.2489230334415
+HYDR BYE  time=1958 lots=2 ldd=1 prc=0.76 res=-0.0154716 pct=-2.0251273073514
+MTSS SELL time=2146 lots=-2 ldd=-1 prc=281.4 res=-8.9844750000001 pct=-3.1841725070328
+ROSN SELL time=2346 lots=-2 ldd=-1 prc=590.4 res=1.6712750000002 pct=0.28184755715681
+SBERP SELL time=2346 lots=-2 ldd=-1 prc=289.92 res=3.261405 pct=1.1341667705855
+VTBR SELL time=2346 lots=-2 ldd=-1 prc=0.02439 res=-0.00039562 pct=-1.6173653739632

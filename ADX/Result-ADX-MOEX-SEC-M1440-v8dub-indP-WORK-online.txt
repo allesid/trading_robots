@@ -1,0 +1,21 @@
+=========================================
+Start: date=09.02.2024 time=1126 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-indP-WORK-online.txt
+=========================================
+Start: date=09.02.2024 time=1127 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-indP-WORK-online.txt
+Stop: date=09.02.2024 time=1129 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-indP-WORK-online.txt
+=========================================
+Start: date=14.02.2024 time=2250 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-indP-WORK-online.txt
+AFKS BYE  time=2251 lots=1 ldd=1 prc=18.05 res=0.0 pct=0
+GAZP SELL time=2251 lots=-1 ldd=-1 prc=161.61 res=0.0 pct=0
+HYDR SELL time=2251 lots=-1 ldd=-1 prc=0.7654 res=0.0 pct=0
+MTSS BYE  time=2251 lots=1 ldd=1 prc=282.95 res=0.0 pct=0
+SBER BYE  time=2251 lots=1 ldd=1 prc=288.99 res=0.0 pct=0
+=========================================
+Start: date=15.02.2024 time=1020 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1122 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1157 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1401 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=2313 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-indP-WORK-online.txt
+NLMK SELL time=2315 lots=-1 ldd=-1 prc=198.98 res=0.0 pct=0

@@ -426,7 +426,7 @@ function OnQuote(class_code, sec_code)
 				elseif summary_res[7] == 0 then
 					summary_res[1] = 1
 					summary_res[3] = summary_res[3]-(summary_res[1] + comis)*prc_off
-					summary_res[5] = last_deal[ir][5]
+					summary_res[5] = prc_off
 					filer_res:write(SEC.." BUY0: date="..dt.." time="..tm.." price="..tostring(prc_off), '\n')
 				end
 			elseif summary_res[1] > last_deal[ir][1] then
@@ -445,7 +445,7 @@ function OnQuote(class_code, sec_code)
 				elseif summary_res[7] == 0 then
 					summary_res[1] = -dub_up
 					summary_res[3] = summary_res[3] - (summary_res[1] + comis)*prc_bid*dub_up
-					summary_res[5] = last_deal[ir][5] * dub_up
+					summary_res[5] = -prc_bid * dub_up
 					if dub_up == 1 then
 						filer_res:write(SEC.." SELL0: date="..dt.." time="..tm.." price="..tostring(prc_bid), '\n')
 					end

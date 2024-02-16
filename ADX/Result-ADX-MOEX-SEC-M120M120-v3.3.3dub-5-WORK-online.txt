@@ -1,0 +1,2 @@
+=========================================
+Start: date=16.02.2024 time=1531 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120M120-v3.3.3dub-5-WORK-online.txt

@@ -1,0 +1,47 @@
+=========================================
+Start: date=30.01.2024 time=1604 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=30.01.2024 time=1605 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+HKDRUB_TOM BYE  time=1711 lots=1 ldd=1 prc=10.06 res=0.0 pct=0 ld=1 ld2=0
+EUR_RUB__TOM BYE  time=1720 lots=1 ldd=1 prc=97.39 res=0.0 pct=0 ld=1 ld2=0
+USD000UTSTOM BYE  time=1738 lots=1 ldd=1 prc=89.74 res=0.0 pct=0 ld=1 ld2=0
+=========================================
+Start: date=31.01.2024 time=801 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+CNYRUB_TOM BYE  time=900 lots=1 ldd=1 prc=12.45 res=0.0 pct=0 ld=1 ld2=0
+=========================================
+Start: date=02.02.2024 time=939 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=05.02.2024 time=710 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+HKDRUB_TOM SELL time=1009 lots=-1 ldd=0 prc=10.3 res=0.230968 pct=2.2949920508744 ld=0 ld2=1
+=========================================
+Start: date=06.02.2024 time=847 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+CNYRUB_TOM SELL time=1432 lots=-1 ldd=0 prc=12.618 res=0.163776 pct=1.3156812339332 ld=0 ld2=1
+HKDRUB_TOM BYE  time=1502 lots=1 ldd=1 prc=10.52 res=0.225818 pct=2.2949920508744 ld=1 ld2=0
+=========================================
+Start: date=07.02.2024 time=943 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+Stop: date=07.02.2024 time=1218 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=07.02.2024 time=1225 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=08.02.2024 time=854 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+HKDRUB_TOM SELL time=921 lots=-1 ldd=0 prc=10.577 res=0.2745565 pct=2.7581536967929 ld=0 ld2=1
+=========================================
+Start: date=09.02.2024 time=937 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+USD000UTSTOM SELL time=1708 lots=-1 ldd=0 prc=90.9 res=1.11763125 pct=1.2454450480568 ld=0 ld2=1
+=========================================
+Start: date=12.02.2024 time=940 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=13.02.2024 time=939 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+USD000UTSTOM BYE  time=1006 lots=1 ldd=1 prc=91.17 res=1.07218125 pct=1.2454450480568 ld=1 ld2=0
+=========================================
+Start: date=14.02.2024 time=809 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+EUR_RUB__TOM SELL time=1424 lots=-1 ldd=0 prc=97.8025 res=0.36130374999999 pct=0.37097697461303 ld=0 ld2=1
+HKDRUB_TOM BYE  time=1542 lots=1 ldd=1 prc=10.50 res=0.269268 pct=2.7581536967929 ld=1 ld2=0
+CNYRUB_TOM BYE  time=1548 lots=1 ldd=1 prc=12.61 res=0.157467 pct=1.3156812339332 ld=1 ld2=0
+EUR_RUB__TOM BYE  time=1650 lots=1 ldd=1 prc=97.72 res=0.31240249999999 pct=0.37097697461303 ld=1 ld2=0
+=========================================
+Start: date=15.02.2024 time=949 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=15.02.2024 time=951 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=16.02.2024 time=941 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M60-v3.3.3dub-indP-TEST-online.txt

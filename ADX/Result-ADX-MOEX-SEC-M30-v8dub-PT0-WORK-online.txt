@@ -1,0 +1,40 @@
+=========================================
+Start: date=09.02.2024 time=1010 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-PT0-WORK-online.txt
+=========================================
+Start: date=09.02.2024 time=1012 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-PT0-WORK-online.txt
+AFKS BYE  time=1014 lots=1 ldd=1 prc=17.47 res=1.0 pct=0
+ALRS SELL time=1014 lots=-1 ldd=-1 prc=69.12 res=2.0 pct=0
+CHMF SELL time=1014 lots=-1 ldd=-1 prc=1573.2 res=1.0 pct=0
+GAZP SELL time=1014 lots=-1 ldd=-1 prc=163.41 res=1.0 pct=0
+HYDR SELL time=1014 lots=-1 ldd=-1 prc=0.7642 res=2.0 pct=0
+MOEX SELL time=1014 lots=-1 ldd=-1 prc=197.74 res=1.0 pct=0
+NLMK SELL time=1014 lots=-1 ldd=-1 prc=196.76 res=1.0 pct=0
+SNGS SELL time=1014 lots=-1 ldd=-1 prc=29.8 res=1.0 pct=0
+VTBR SELL time=1014 lots=-1 ldd=-1 prc=0.024225 res=8.0 pct=0
+Stop: date=09.02.2024 time=1014 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-PT0-WORK-online.txt
+=========================================
+Start: date=09.02.2024 time=1014 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-PT0-WORK-online.txt
+Stop: date=09.02.2024 time=1111 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-PT0-WORK-online.txt
+=========================================
+Start: date=09.02.2024 time=1122 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-PT0-WORK-online.txt
+AFKS BYE  time=1124 lots=1 ldd=1 prc=17.50 res=0.0 pct=0
+ALRS SELL time=1124 lots=-1 ldd=-1 prc=69.03 res=0.0 pct=0
+CHMF SELL time=1124 lots=-1 ldd=-1 prc=1570.0 res=0.0 pct=0
+GAZP SELL time=1124 lots=-1 ldd=-1 prc=163.51 res=0.0 pct=0
+HYDR SELL time=1124 lots=-1 ldd=-1 prc=0.7634 res=0.0 pct=0
+MOEX SELL time=1124 lots=-1 ldd=-1 prc=198.95 res=0.0 pct=0
+NLMK SELL time=1124 lots=-1 ldd=-1 prc=197.84 res=0.0 pct=0
+ROSN BYE  time=1124 lots=1 ldd=1 prc=587.90 res=0.0 pct=0
+SNGS SELL time=1124 lots=-1 ldd=-1 prc=29.87 res=0.0 pct=0
+VTBR SELL time=1124 lots=-1 ldd=-1 prc=0.024385 res=0.0 pct=0
+AFLT BYE  time=1536 lots=1 ldd=1 prc=39.51 res=0.0 pct=0
+ROSN SELL time=2326 lots=-2 ldd=-1 prc=589.3 res=1.10605 pct=0.1881357373703
+=========================================
+Start: date=12.02.2024 time=1003 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-PT0-WORK-online.txt
+MTSS BYE  time=1007 lots=1 ldd=1 prc=279.15 res=0.0 pct=0
+ROSN BYE  time=1007 lots=2 ldd=1 prc=592.10 res=-2.2832500000001 pct=-0.38700425923585
+ROSN SELL time=1250 lots=-2 ldd=-1 prc=586.8 res=-8.1753500000001 pct=-1.3821233269609
+VTBR BYE  time=1402 lots=2 ldd=1 prc=0.02 res=-0.0001671925 pct=-0.6856366618823
+ROSN BYE  time=1803 lots=2 ldd=1 prc=587.60 res=-9.5621500000002 pct=-1.618455978631
+HYDR BYE  time=2004 lots=2 ldd=1 prc=0.77 res=-0.0041817 pct=-0.5477731202515
+Stop: date=12.02.2024 time=2211 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-PT0-WORK-online.txt

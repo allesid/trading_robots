@@ -1,0 +1,20 @@
+=========================================
+Start: date=25.01.2024 time=1551 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-HKDRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=25.01.2024 time=1552 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-HKDRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+HKDRUB_TOM BYE  time=1703 lots=1 ldd=1 prc=9.77 res=0.0 pct=0.0 ld=1 ld2=0
+Stop: date=25.01.2024 time=1807 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-HKDRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=25.01.2024 time=1807 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-HKDRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=26.01.2024 time=927 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-HKDRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+Stop: date=26.01.2024 time=1623 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-HKDRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=26.01.2024 time=1752 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-HKDRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+HKDRUB_TOM SELL time=1802 lots=-1 ldd=0 prc=9.982 res=0.209116 pct=2.094930875576 ld=0 ld2=0
+=========================================
+Start: date=29.01.2024 time=1131 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-HKDRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+Stop: date=29.01.2024 time=1131 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-HKDRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=29.01.2024 time=1246 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-HKDRUB_TOM-v6.2.3dub-indP-TEST-online.txt
+Stop: date=29.01.2024 time=1247 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-HKDRUB_TOM-v6.2.3dub-indP-TEST-online.txt

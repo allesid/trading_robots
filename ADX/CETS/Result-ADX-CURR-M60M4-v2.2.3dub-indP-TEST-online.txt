@@ -1,0 +1,5 @@
+=========================================
+Start: date=22.01.2024 time=1258 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M4-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=22.01.2024 time=1259 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M4-v2.2.3dub-indP-TEST-online.txt
+Stop: date=22.01.2024 time=1259 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M4-v2.2.3dub-indP-TEST-online.txt

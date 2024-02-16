@@ -1,0 +1,2 @@
+=========================================
+Start: date=30.01.2024 time=1614 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-FUTUR-M60-v8dub-indP-TEST-online.txt

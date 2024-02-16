@@ -1,0 +1,29 @@
+=========================================
+Start: date=09.02.2024 time=1126 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080-v8dub-indP-WORK-online.txt
+=========================================
+Start: date=09.02.2024 time=1127 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080-v8dub-indP-WORK-online.txt
+Stop: date=09.02.2024 time=1128 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080-v8dub-indP-WORK-online.txt
+=========================================
+Start: date=14.02.2024 time=2130 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080-v8dub-indP-WORK-online.txt
+ALRS SELL time=2130 lots=-1 ldd=-1 prc=68.63 res=0.0 pct=0
+CHMF BYE  time=2130 lots=1 ldd=1 prc=1606.80 res=0.0 pct=0
+MTSS BYE  time=2130 lots=1 ldd=1 prc=282.60 res=0.0 pct=0
+ROSN BYE  time=2130 lots=1 ldd=1 prc=592.50 res=0.0 pct=0
+SBER BYE  time=2130 lots=1 ldd=1 prc=288.77 res=0.0 pct=0
+SNGS BYE  time=2130 lots=1 ldd=1 prc=30.51 res=0.0 pct=0
+TATN BYE  time=2130 lots=1 ldd=1 prc=708.50 res=0.0 pct=0
+TATNP BYE  time=2130 lots=1 ldd=1 prc=706.20 res=0.0 pct=0
+Stop: date=14.02.2024 time=2130 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080-v8dub-indP-WORK-online.txt
+=========================================
+Start: date=14.02.2024 time=2252 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080-v8dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1108 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080-v8dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1109 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080-v8dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1157 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080-v8dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1322 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080-v8dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=2313 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080-v8dub-indP-WORK-online.txt
+=========================================
+Start: date=16.02.2024 time=1014 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080-v8dub-indP-WORK-online.txt
+VTBR 1 error: invalid context

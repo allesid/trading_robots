@@ -1,0 +1,43 @@
+=========================================
+Start: date=30.01.2024 time=1607 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=30.01.2024 time=1608 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=31.01.2024 time=801 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=31.01.2024 time=932 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=02.02.2024 time=933 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+USD000UTSTOM BYE  time=936 lots=1 ldd=1 prc=90.55 res=0.0 pct=0 ld=1 ld2=0
+CNYRUB_TOM BYE  time=936 lots=1 ldd=1 prc=12.59 res=0.0 pct=0 ld=1 ld2=0
+=========================================
+Start: date=05.02.2024 time=711 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=06.02.2024 time=847 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+HKDRUB_TOM BYE  time=942 lots=1 ldd=1 prc=10.59 res=0.0 pct=0 ld=1 ld2=0
+=========================================
+Start: date=07.02.2024 time=944 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+EUR_RUB__TOM BYE  time=1103 lots=1 ldd=1 prc=98.25 res=0.0 pct=0 ld=1 ld2=0
+Stop: date=07.02.2024 time=1215 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=07.02.2024 time=1225 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=08.02.2024 time=854 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=09.02.2024 time=938 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+Stop: date=09.02.2024 time=1334 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=12.02.2024 time=940 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=13.02.2024 time=939 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=14.02.2024 time=808 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=15.02.2024 time=949 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=15.02.2024 time=951 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=16.02.2024 time=940 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+Stop: date=16.02.2024 time=940 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=16.02.2024 time=1535 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M1440M1440-v3.3.3dub-indP-TEST-online.txt

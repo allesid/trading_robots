@@ -1,0 +1,4 @@
+sec_EUR_RUB__TOM ld_1 res_0.0 pos_-97.39617375 pospct_0 prc_97.3475 ld1_1 ld2_1
+sec_USD000UTSTOM ld_0 res_1.63771625 pos_1.59209125 pospct_1.8284715438077 prc_91.25 ld1_1 ld2_1
+sec_CNYRUB_TOM ld_1 res_0.11036275 pos_-12.485432 pospct_0.9903446420888 prc_12.5895 ld1_0 ld2_0
+sec_HKDRUB_TOM ld_0 res_0.435982 pos_0.4307435 pospct_4.3441809485851 prc_10.477 ld1_0 ld2_0

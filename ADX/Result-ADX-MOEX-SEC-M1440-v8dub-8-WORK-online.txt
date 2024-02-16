@@ -1,0 +1,24 @@
+=========================================
+Start: date=13.02.2024 time=2032 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-8-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=2033 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-8-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=2211 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-8-WORK-online.txt
+CHMF BYE  time=2216 lots=1 ldd=1 prc=1609.00 res=0.0 pct=0
+GAZP BYE  time=2216 lots=1 ldd=1 prc=162.30 res=0.0 pct=0
+HYDR BYE  time=2216 lots=1 ldd=1 prc=0.77 res=0.0 pct=0
+TATN BYE  time=2216 lots=1 ldd=1 prc=712.10 res=0.0 pct=0
+=========================================
+Start: date=14.02.2024 time=843 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-8-WORK-online.txt
+GAZP SELL time=1454 lots=-2 ldd=-1 prc=162.01 res=-0.37115 pct=-0.22868145409735
+TATN SELL time=1454 lots=-2 ldd=-1 prc=710.9 res=-1.55605 pct=-0.21851565791322
+TATNP SELL time=1454 lots=-1 ldd=-1 prc=707.9 res=0.0 pct=0
+=========================================
+Start: date=15.02.2024 time=1023 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-8-WORK-online.txt
+Stop: date=15.02.2024 time=1121 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-8-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1216 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-8-WORK-online.txt
+Stop: date=15.02.2024 time=1357 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-8-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=2307 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-8-WORK-online.txt
+HYDR SELL time=2309 lots=-2 ldd=-1 prc=0.7608 res=-0.0087845999999999 pct=-1.1420436817473

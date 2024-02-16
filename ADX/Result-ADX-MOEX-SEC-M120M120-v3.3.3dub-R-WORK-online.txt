@@ -1,0 +1,20 @@
+=========================================
+Start: date=09.02.2024 time=1835 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120M120-v3.3.3dub-R-WORK-online.txt
+=========================================
+Start: date=09.02.2024 time=1835 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120M120-v3.3.3dub-R-WORK-online.txt
+=========================================
+Start: date=12.02.2024 time=1003 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120M120-v3.3.3dub-R-WORK-online.txt
+Stop: date=12.02.2024 time=1152 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120M120-v3.3.3dub-R-WORK-online.txt
+=========================================
+Start: date=12.02.2024 time=2101 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120M120-v3.3.3dub-R-WORK-online.txt
+Stop: date=12.02.2024 time=2101 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120M120-v3.3.3dub-R-WORK-online.txt
+=========================================
+Start: date=12.02.2024 time=2204 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120M120-v3.3.3dub-R-WORK-online.txt
+Stop: date=12.02.2024 time=2335 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120M120-v3.3.3dub-R-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=1008 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120M120-v3.3.3dub-R-WORK-online.txt
+=========================================
+Start: date=14.02.2024 time=816 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120M120-v3.3.3dub-R-WORK-online.txt
+Stop: date=14.02.2024 time=1148 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120M120-v3.3.3dub-R-WORK-online.txt
+=========================================
+Start: date=14.02.2024 time=1148 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120M120-v3.3.3dub-R-WORK-online.txt

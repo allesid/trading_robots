@@ -1,0 +1,30 @@
+=========================================
+Start: date=13.02.2024 time=1001 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-7-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=1001 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-7-WORK-online.txt
+HYDR BYE  time=1027 lots=1 ldd=1 prc=0.77 res=0.0 pct=0
+MOEX BYE  time=1027 lots=1 ldd=1 prc=200.00 res=0.0 pct=0
+TATN BYE  time=1027 lots=1 ldd=1 prc=713.60 res=0.0 pct=0
+SBER BYE  time=1127 lots=1 ldd=1 prc=288.78 res=0.0 pct=0
+HYDR SELL time=1557 lots=-2 ldd=-1 prc=0.7642 res=-0.0065852 pct=-0.85477673935617
+ALRS SELL time=1757 lots=-1 ldd=-1 prc=68.0 res=0.0 pct=0
+ALRS BYE  time=2027 lots=2 ldd=1 prc=68.47 res=-0.504 pct=-0.74117647058824
+HYDR BYE  time=2027 lots=2 ldd=1 prc=0.77 res=-0.0147494 pct=-1.9231096365035
+ALRS SELL time=2257 lots=-2 ldd=-1 prc=68.26 res=-0.78247 pct=-1.1478801364273
+=========================================
+Start: date=14.02.2024 time=842 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-7-WORK-online.txt
+GAZP BYE  time=1027 lots=1 ldd=1 prc=162.57 res=0.0 pct=0
+SBERP BYE  time=1157 lots=1 ldd=1 prc=289.86 res=0.0 pct=0
+AFKS BYE  time=1357 lots=1 ldd=1 prc=18.14 res=0.0 pct=0
+HYDR SELL time=1427 lots=-2 ldd=-1 prc=0.7658 res=-0.021321 pct=-2.7747944472863
+SBERP SELL time=1557 lots=-2 ldd=-1 prc=289.11 res=-0.89492999999999 pct=-0.30874560132477
+ALRS BYE  time=1657 lots=2 ldd=1 prc=68.97 res=-1.56073 pct=-2.2880207751615
+AFKS SELL time=2159 lots=-2 ldd=-1 prc=18.055 res=-0.090067999999999 pct=-0.49662549625054
+=========================================
+Start: date=15.02.2024 time=1024 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-7-WORK-online.txt
+Stop: date=15.02.2024 time=1122 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-7-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1216 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-7-WORK-online.txt
+Stop: date=15.02.2024 time=1402 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-7-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1537 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30-v8dub-7-WORK-online.txt

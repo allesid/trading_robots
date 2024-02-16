@@ -1,0 +1,30 @@
+=========================================
+Start: date=15.02.2024 time=1001 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60M60-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1007 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60M60-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1009 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60M60-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1009 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60M60-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1009 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60M60-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1019 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60M60-v3.3.3dub-indP-WORK-online.txt
+AFLT BYE  time=1054 lots=1 ldd=1 prc=39.08 res=0.0 pct=0 ld=0 ld2=-1
+ALRS BYE  time=1054 lots=1 ldd=1 prc=68.14 res=0.0 pct=0 ld=0 ld2=-1
+MTSS BYE  time=1054 lots=1 ldd=1 prc=282.90 res=0.0 pct=0 ld=0 ld2=-1
+VTBR BYE  time=1054 lots=1 ldd=1 prc=0.02 res=0.0 pct=0 ld=0 ld2=-1
+Stop: date=15.02.2024 time=1123 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60M60-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1152 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60M60-v3.3.3dub-indP-WORK-online.txt
+AFKS BYE  time=1254 lots=1 ldd=1 prc=18.06 res=0.0 pct=0 ld=1 ld2=0
+MOEX BYE  time=1254 lots=1 ldd=1 prc=198.00 res=0.0 pct=0 ld=1 ld2=0
+Stop: date=15.02.2024 time=1402 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60M60-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1515 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60M60-v3.3.3dub-indP-WORK-online.txt
+SNGS BYE  time=1553 lots=1 ldd=1 prc=30.59 res=0.0 pct=0 ld=1 ld2=0
+TATNP BYE  time=1553 lots=1 ldd=1 prc=708.20 res=0.0 pct=0 ld=1 ld2=0
+GAZP BYE  time=1753 lots=1 ldd=1 prc=162.01 res=0.0 pct=0 ld=1 ld2=-1
+SBER SELL time=1753 lots=-1 ldd=-1 prc=289.83 res=0.0 pct=0 ld=-1 ld2=1
+ROSN BYE  time=1953 lots=1 ldd=1 prc=590.25 res=0.0 pct=0 ld=1 ld2=-1
+TATN BYE  time=1953 lots=1 ldd=1 prc=708.80 res=0.0 pct=0 ld=1 ld2=-1
+MTSS SELL time=2154 lots=-2 ldd=-1 prc=281.6 res=-1.44145 pct=-0.50952633439377 ld=-1 ld2=1
+SBERP BYE  time=2154 lots=1 ldd=1 prc=289.81 res=0.0 pct=0 ld=1 ld2=-1

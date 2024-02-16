@@ -1,0 +1,500 @@
+=========================================
+Start: date=02.02.2024 time=113 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=02.02.2024 time=123 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=02.02.2024 time=132 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=05.02.2024 time=1823 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=05.02.2024 time=1835 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+NLMK BYE  time=1845 lots=1 ldd=1 prc=201.36 res=0.0 pct=0 ld=0 ld2=-1
+SNGS BYE  time=1845 lots=1 ldd=1 prc=30.07 res=0.0 pct=0 ld=0 ld2=-1
+Stop: date=05.02.2024 time=1903 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=05.02.2024 time=1903 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=05.02.2024 time=1904 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=05.02.2024 time=1905 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+AFLT BYE  time=1918 lots=1 ldd=1 prc=39.71 res=0.0 pct=0 ld=1 ld2=-1
+MOEX BYE  time=1918 lots=1 ldd=1 prc=200.01 res=0.0 pct=0 ld=0 ld2=-1
+ROSN BYE  time=1918 lots=1 ldd=1 prc=590.00 res=0.0 pct=0 ld=0 ld2=-1
+TATN BYE  time=1918 lots=1 ldd=1 prc=709.40 res=0.0 pct=0 ld=0 ld2=-1
+HYDR BYE  time=1940 lots=1 ldd=1 prc=0.78 res=0.0 pct=0 ld=1 ld2=-1
+VTBR BYE  time=1947 lots=1 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=-1
+NVTK BYE  time=1952 lots=1 ldd=1 prc=1472.20 res=0.0 pct=0 ld=1 ld2=-1
+TATNP BYE  time=2017 lots=1 ldd=1 prc=707.70 res=0.0 pct=0 ld=1 ld2=-1
+CHMF BYE  time=2150 lots=1 ldd=1 prc=1624.60 res=0.0 pct=0 ld=1 ld2=-1
+AFLT SELL time=2250 lots=-2 ldd=-1 prc=39.72 res=-0.0098550000000017 pct=-0.024817426340976 ld=-1 ld2=1
+ALRS BYE  time=2253 lots=1 ldd=1 prc=70.74 res=0.0 pct=0 ld=1 ld2=-1
+=========================================
+Start: date=06.02.2024 time=847 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+GAZP BYE  time=1140 lots=1 ldd=1 prc=164.45 res=0.0 pct=0 ld=1 ld2=-1
+SBERP BYE  time=1226 lots=1 ldd=1 prc=278.61 res=0.0 pct=0 ld=1 ld2=-1
+Stop: date=06.02.2024 time=1430 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=06.02.2024 time=1510 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+AFKS BYE  time=1531 lots=1 ldd=1 prc=17.41 res=0.0 pct=0 ld=1 ld2=-1
+MTSS SELL time=1540 lots=-1 ldd=-1 prc=279.0 res=0.0 pct=0 ld=-1 ld2=1
+TATNP SELL time=1918 lots=-2 ldd=-1 prc=709.5 res=1.44615 pct=0.20434506146672 ld=-1 ld2=1
+MOEX SELL time=2216 lots=-2 ldd=-1 prc=200.8 res=0.68999500000001 pct=0.34498025098746 ld=-1 ld2=1
+=========================================
+Start: date=07.02.2024 time=945 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+TATNP BYE  time=1019 lots=2 ldd=1 prc=710.20 res=0.036650000000009 pct=0.0056840325731342 ld=1 ld2=-1
+Stop: date=07.02.2024 time=1223 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1258 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1516 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=07.02.2024 time=1548 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1551 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1552 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=07.02.2024 time=1552 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1555 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1556 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1557 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1557 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1558 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=07.02.2024 time=1558 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1606 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=07.02.2024 time=1606 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1607 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=07.02.2024 time=1607 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1608 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1608 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1610 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1635 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1636 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1638 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1639 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=07.02.2024 time=1639 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1646 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1658 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+SBER BYE  time=1713 lots=1 ldd=1 prc=282.78 res=0.0 pct=0 ld=1 ld2=-1
+Stop: date=07.02.2024 time=1714 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1724 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+GAZP SELL time=1747 lots=-2 ldd=-1 prc=165.05 res=0.517775 pct=0.31485253876558 ld=-1 ld2=1
+Stop: date=07.02.2024 time=1759 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=07.02.2024 time=1811 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+ROSN SELL time=2239 lots=-2 ldd=-1 prc=589.4 res=-0.89499999999998 pct=-0.15169491525423 ld=-1 ld2=1
+AFLT BYE  time=2340 lots=2 ldd=1 prc=39.70 res=-0.029575000000001 pct=-0.074464959070079 ld=1 ld2=-1
+=========================================
+Start: date=08.02.2024 time=913 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=08.02.2024 time=1100 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=08.02.2024 time=1101 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+MTSS BYE  time=1139 lots=2 ldd=1 prc=275.80 res=3.0605 pct=1.0969534050179 ld=1 ld2=-1
+MOEX BYE  time=1140 lots=2 ldd=1 prc=201.89 res=-0.60080499999998 pct=-0.2978484342715 ld=1 ld2=-1
+GAZP BYE  time=1310 lots=2 ldd=1 prc=163.70 res=1.702725 pct=1.0327864981718 ld=1 ld2=-1
+SBERP SELL time=1424 lots=-2 ldd=-1 prc=283.13 res=4.380695 pct=1.572339470945 ld=-1 ld2=1
+ROSN BYE  time=1436 lots=2 ldd=1 prc=590.40 res=-2.4843999999999 pct=-0.42135898040522 ld=1 ld2=-1
+ROSN SELL time=1605 lots=-2 ldd=-1 prc=589.9 res=-3.5748 pct=-0.6060473272887 ld=-1 ld2=1
+SBER SELL time=1709 lots=-2 ldd=-1 prc=283.65 res=0.72861 pct=0.25765966475706 ld=-1 ld2=1
+ROSN BYE  time=1734 lots=2 ldd=1 prc=589.90 res=-4.1646999999999 pct=-0.70604732728869 ld=1 ld2=-1
+Stop: date=08.02.2024 time=1759 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=08.02.2024 time=1807 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=08.02.2024 time=1807 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=08.02.2024 time=1816 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=08.02.2024 time=1845 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=08.02.2024 time=1905 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=08.02.2024 time=1922 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=08.02.2024 time=1927 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=08.02.2024 time=1927 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=08.02.2024 time=1930 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+ROSN SELL time=2227 lots=-2 ldd=-1 prc=586.75 res=-7.9046 pct=-1.3400361389517 ld=-1 ld2=1
+Stop: date=08.02.2024 time=2252 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=08.02.2024 time=2252 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=08.02.2024 time=2252 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=08.02.2024 time=2254 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=09.02.2024 time=942 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=09.02.2024 time=942 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=09.02.2024 time=1000 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=09.02.2024 time=1000 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=09.02.2024 time=1000 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=09.02.2024 time=1111 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=09.02.2024 time=1115 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+AFLT BYE  time=1127 lots=1 ldd=1 prc=38.94 res=0.0 pct=0 ld=0 ld2=-1
+GAZP BYE  time=1127 lots=1 ldd=1 prc=163.52 res=0.0 pct=0 ld=1 ld2=0
+MOEX BYE  time=1127 lots=1 ldd=1 prc=198.99 res=0.0 pct=0 ld=1 ld2=0
+NVTK BYE  time=1127 lots=1 ldd=1 prc=1450.60 res=0.0 pct=0 ld=1 ld2=0
+ALRS BYE  time=1157 lots=1 ldd=1 prc=69.24 res=0.0 pct=0 ld=1 ld2=0
+MTSS BYE  time=1157 lots=1 ldd=1 prc=275.10 res=0.0 pct=0 ld=1 ld2=0
+SBERP BYE  time=1157 lots=1 ldd=1 prc=283.24 res=0.0 pct=0 ld=1 ld2=-1
+CHMF BYE  time=1227 lots=1 ldd=1 prc=1573.60 res=0.0 pct=0 ld=1 ld2=0
+HYDR BYE  time=1327 lots=1 ldd=1 prc=0.76 res=0.0 pct=0 ld=1 ld2=-1
+SNGS BYE  time=1527 lots=1 ldd=1 prc=29.82 res=0.0 pct=0 ld=1 ld2=-1
+ROSN BYE  time=1758 lots=1 ldd=1 prc=591.00 res=0.0 pct=0 ld=1 ld2=-1
+VTBR BYE  time=2027 lots=1 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=-1
+=========================================
+Start: date=09.02.2024 time=1542 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=09.02.2024 time=1629 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=12.02.2024 time=1003 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=12.02.2024 time=1029 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=12.02.2024 time=1035 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=12.02.2024 time=1159 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=12.02.2024 time=1212 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+SNGS SELL time=1227 lots=-2 ldd=-1 prc=30.13 res=0.29509 pct=0.98957075788061 ld=-1 ld2=1
+Stop: date=12.02.2024 time=1259 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=12.02.2024 time=1304 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+SBER BYE  time=2127 lots=1 ldd=1 prc=287.33 res=0.0 pct=0 ld=1 ld2=-1
+Stop: date=12.02.2024 time=2329 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=1003 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+SNGS BYE  time=1327 lots=2 ldd=1 prc=30.21 res=0.18496 pct=0.62405466096724 ld=1 ld2=-1
+GAZP SELL time=1957 lots=-2 ldd=-1 prc=162.26 res=-1.34176 pct=-0.82054794520549 ld=-1 ld2=1
+SBER SELL time=2127 lots=-2 ldd=-1 prc=287.18 res=-0.29366499999998 pct=-0.10220478195802 ld=-1 ld2=1
+SBERP SELL time=2127 lots=-2 ldd=-1 prc=287.19 res=3.80838 pct=1.3445770371416 ld=-1 ld2=1
+AFKS SELL time=2228 lots=-1 ldd=-1 prc=18.0 res=0.0 pct=0 ld=-1 ld2=1
+Stop: date=13.02.2024 time=2249 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=2250 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=14.02.2024 time=816 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+SBER BYE  time=1827 lots=2 ldd=1 prc=289.31 res=-2.710845 pct=-0.94389988607391 ld=1 ld2=-1
+Stop: date=14.02.2024 time=2334 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=953 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1113 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1121 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1208 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1222 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1328 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1330 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1331 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1333 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1333 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1341 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1341 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1349 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1358 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1508 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1508 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1509 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1509 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1513 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+GAZP BYE  time=1557 lots=2 ldd=1 prc=161.95 res=-1.19402 pct=-0.72949654621621 ld=1 ld2=-1
+Stop: date=15.02.2024 time=1558 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1604 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1604 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1617 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+SBERP SELL resd: SELL price=0.024445 tn= 1.0 Trvol= -1 qty=2
+SBERP SELL time=1626 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+Stop: date=15.02.2024 time=1700 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1700 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1730 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1730 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+SBERP SELL resd: SELL price=0.024405 tn= 1.0 Trvol= -1 qty=2
+SBERP SELL time=1757 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+SBERP SELL resd: SELL price=0.024405 tn= 1.0 Trvol= -1 qty=2
+SBERP SELL time=1757 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+SBERP SELL time=1757 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+SBERP SELL time=1757 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+SBERP SELL time=1757 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+SBERP SELL time=1757 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+SBERP SELL time=1758 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+SBERP SELL time=1758 tn=0.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+SBERP SELL time=1758 tn=0.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+SBERP SELL resd: SELL price=0.024405 tn= 1.0 Trvol= -1 qty=2
+SBERP SELL time=1758 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+SBERP SELL resd: SELL price=0.024405 tn= 1.0 Trvol= -1 qty=2
+SBERP SELL time=1759 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+Stop: date=15.02.2024 time=1801 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1801 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1801 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1810 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1838 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1838 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1915 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1915 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1932 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1933 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+SBERP SELL resd: SELL price=0.024395 tn= 1.0 Trvol= -1 qty=2
+SBERP SELL time=1957 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+SBERP SELL time=1957 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+SBERP SELL time=1957 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+SBERP SELL time=1957 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+HYDR SELL time=1957 lots=-2 ldd=-1 prc=0.7621 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=1
+HYDR SELL resd: SELL price=0.7621 tn= 2.0 Trvol= -2 qty=4
+HYDR SELL time=1957 tn=2.0 Trvol=-2 ld[sec]=-1 lots=-2 ldd=-1 prc=0.76 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=1
+SBERP SELL time=1957 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.7621 tn= 2.0 Trvol= -2 qty=4
+HYDR SELL time=1957 tn=2.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=1
+SBERP SELL time=1957 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.7621 tn= 2.0 Trvol= -2 qty=4
+HYDR SELL time=1957 tn=2.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=1
+SBERP SELL time=1957 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.7621 tn= 2.0 Trvol= -2 qty=4
+HYDR SELL time=1958 tn=2.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=1
+SBERP SELL time=1958 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.7621 tn= 2.0 Trvol= -2 qty=4
+HYDR SELL time=1958 tn=2.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=1
+SBERP SELL time=1958 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.7621 tn= 2.0 Trvol= -2 qty=4
+HYDR SELL time=1958 tn=2.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=1
+SBERP SELL time=1958 tn=0.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.7621 tn= 2.0 Trvol= -2 qty=4
+HYDR SELL time=1958 tn=2.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=1
+SBERP SELL time=1958 tn=0.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.7621 tn= 2.0 Trvol= -2 qty=4
+HYDR SELL time=1958 tn=2.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=1
+SBERP SELL time=1958 tn=0.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.7621 tn= 2.0 Trvol= -2 qty=4
+HYDR SELL time=1958 tn=2.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=1
+HYDR SELL resd: SELL price=0.7621 tn= 2.0 Trvol= -2 qty=4
+HYDR SELL time=1958 tn=2.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=1
+SBERP SELL resd: SELL price=0.7621 tn= 0.0 Trvol= -1 qty=1
+SBERP SELL time=1958 tn=0.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=3.80838 pct=1.3445770371416 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.7621 tn= 2.0 Trvol= -2 qty=4
+HYDR SELL time=1958 tn=2.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=1
+HYDR SELL resd: SELL price=0.7621 tn= 2.0 Trvol= -2 qty=4
+HYDR SELL time=1959 tn=2.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=1
+Stop: date=15.02.2024 time=2005 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=2006 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-indP-WORK-online.txt
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2026 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2027 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2027 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2027 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2027 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2027 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2027 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2027 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2027 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2028 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2028 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2028 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2028 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2028 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2028 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2028 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2056 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2056 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2057 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2057 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2057 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2057 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2057 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2057 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2057 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2057 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2058 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2058 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2058 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2058 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2058 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2058 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2126 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2126 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2126 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2127 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2127 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2127 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2127 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2127 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2127 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2127 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2127 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2128 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2128 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2128 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2128 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2128 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=-1 ld2=-1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2157 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2158 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2158 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2158 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2158 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2158 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2158 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2158 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2158 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2159 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2159 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2159 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2159 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2159 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2159 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2227 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2227 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2227 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2228 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2228 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2228 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2228 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2228 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2228 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2228 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2228 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2229 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2229 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2229 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2229 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2229 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2257 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2257 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2257 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2257 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2258 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2258 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2258 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2258 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2258 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2258 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2258 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2258 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2259 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2259 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2259 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR SELL resd: SELL price=0.024425 tn= 0.0 Trvol= -2 qty=2
+HYDR SELL time=2259 tn=0.0 Trvol=-2 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=-0.0012815 pct=-0.16795543905636 ld=1 ld2=1
+HYDR BYE  time=2327 lots=2 ldd=1 prc=0.76 res=-0.0003436 pct=-0.044887600190069 ld=1 ld2=-1
+HYDR BUY  resd: SELL price=0.7604 tn= 0.0 Trvol= 2 qty=2
+HYDR BYE  time=2327 tn=0.0 Trvol=2 ld[sec]=1 lots=2 ldd=1 prc=0.76 res=-0.0003436 pct=-0.044887600190069 ld=1 ld2=-1

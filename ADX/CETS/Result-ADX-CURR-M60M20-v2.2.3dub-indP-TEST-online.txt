@@ -1,0 +1,27 @@
+=========================================
+Start: date=22.01.2024 time=1258 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M20-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=22.01.2024 time=1259 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M20-v2.2.3dub-indP-TEST-online.txt
+Stop: date=22.01.2024 time=1300 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M20-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=24.01.2024 time=1503 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M20-v2.2.3dub-indP-TEST-online.txt
+EUR_RUB__TOM BYE  time=1514 lots=1 ldd=1 prc=96.41 res=0.0 pct=0.0 ld=1 ld2=0
+=========================================
+Start: date=25.01.2024 time=939 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M20-v2.2.3dub-indP-TEST-online.txt
+EUR_RUB__TOM SELL time=1436 lots=-1 ldd=0 prc=96.615 res=0.15679499999999 pct=0.16228846452413 ld=0 ld2=0
+EUR_RUB__TOM BYE  time=1710 lots=1 ldd=1 prc=96.88 res=0.10848749999999 pct=0.11197842747657 ld=1 ld2=0
+=========================================
+Start: date=26.01.2024 time=927 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M20-v2.2.3dub-indP-TEST-online.txt
+EUR_RUB__TOM SELL time=927 lots=-1 ldd=0 prc=96.8375 res=0.015046250000012 pct=0.01553762746871 ld=0 ld2=0
+EUR_RUB__TOM BYE  time=1243 lots=1 ldd=1 prc=97.09 res=-0.033372499999988 pct=-0.034373632032948 ld=1 ld2=0
+HKDRUB_TOM BYE  time=1540 lots=1 ldd=1 prc=9.94 res=0.0 pct=0.0 ld=1 ld2=0
+Stop: date=26.01.2024 time=1623 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M20-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=26.01.2024 time=1751 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M20-v2.2.3dub-indP-TEST-online.txt
+EUR_RUB__TOM SELL time=1753 lots=-1 ldd=0 prc=97.3975 res=0.22808375 pct=0.23417823866115 ld=0 ld2=0
+HKDRUB_TOM SELL time=1753 lots=-1 ldd=0 prc=9.936 res=-0.0069689999999998 pct=-0.070138888888887 ld=0 ld2=0
+=========================================
+Start: date=29.01.2024 time=1131 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M20-v2.2.3dub-indP-TEST-online.txt
+Stop: date=29.01.2024 time=1131 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M20-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=29.01.2024 time=1246 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M20-v2.2.3dub-indP-TEST-online.txt

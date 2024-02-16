@@ -1,0 +1,28 @@
+=========================================
+Start: date=13.02.2024 time=1335 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-7-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=1335 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-7-WORK-online.txt
+Stop: date=13.02.2024 time=1335 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-7-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=1340 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-7-WORK-online.txt
+AFKS BYE  time=1347 lots=1 ldd=1 prc=18.07 res=0.0 pct=0
+SBER BYE  time=1347 lots=1 ldd=1 prc=286.58 res=0.0 pct=0
+VTBR BYE  time=1347 lots=1 ldd=1 prc=0.02 res=0.0 pct=0
+GAZP SELL time=1547 lots=-1 ldd=-1 prc=162.26 res=0.0 pct=0
+ALRS SELL time=1552 lots=-1 ldd=-1 prc=67.84 res=0.0 pct=0
+NLMK SELL time=1552 lots=-1 ldd=-1 prc=197.4 res=0.0 pct=0
+SBERP BYE  time=2147 lots=1 ldd=1 prc=287.13 res=0.0 pct=0
+VTBR SELL time=2347 lots=-2 ldd=-1 prc=0.02437 res=-5.72075e-05 pct=-0.23431292238378
+=========================================
+Start: date=14.02.2024 time=843 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-7-WORK-online.txt
+NLMK BYE  time=1147 lots=2 ldd=1 prc=197.74 res=-0.43870000000001 pct=-0.22223910840933
+VTBR BYE  time=1347 lots=2 ldd=1 prc=0.02 res=-0.0002065775 pct=23473.476899634
+ALRS BYE  time=1747 lots=2 ldd=1 prc=68.87 res=-1.06392 pct=-1.5682783018868
+NVTK SELL time=2347 lots=-1 ldd=-1 prc=1411.4 res=0.0 pct=0
+=========================================
+Start: date=15.02.2024 time=1109 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-7-WORK-online.txt
+Stop: date=15.02.2024 time=1122 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-7-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1216 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-7-WORK-online.txt
+ALRS SELL time=1347 lots=-2 ldd=-1 prc=68.11 res=-1.89279 pct=-2.7718066887025
+Stop: date=15.02.2024 time=1402 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-7-WORK-online.txt

@@ -1,0 +1,19 @@
+=========================================
+Start: date=14.02.2024 time=1 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080M10080-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=14.02.2024 time=2 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080M10080-v3.3.3dub-indP-WORK-online.txt
+Stop: date=14.02.2024 time=7 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080M10080-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1000 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080M10080-v3.3.3dub-indP-WORK-online.txt
+AFKS BYE  time=1004 lots=1 ldd=1 prc=18.09 res=0.0 pct=0 ld=1 ld2=0
+=========================================
+Start: date=15.02.2024 time=1108 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080M10080-v3.3.3dub-indP-WORK-online.txt
+GAZP BYE  time=1112 lots=1 ldd=1 prc=162.28 res=0.0 pct=0 ld=0 ld2=-1
+HYDR BYE  time=1112 lots=1 ldd=1 prc=0.76 res=0.0 pct=0 ld=0 ld2=-1
+MTSS BYE  time=1112 lots=1 ldd=1 prc=282.80 res=0.0 pct=0 ld=1 ld2=0
+Stop: date=15.02.2024 time=1112 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080M10080-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1152 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080M10080-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1320 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080M10080-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=2313 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080M10080-v3.3.3dub-indP-WORK-online.txt

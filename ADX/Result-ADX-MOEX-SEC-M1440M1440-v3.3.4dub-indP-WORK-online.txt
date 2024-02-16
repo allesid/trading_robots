@@ -1,0 +1,259 @@
+=========================================
+Start: date=15.02.2024 time=38 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440M1440-v3.3.4dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=41 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440M1440-v3.3.4dub-indP-WORK-online.txt
+VTBR BYE  time=42 lots=1 ldd=1 prc=18.19 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=43 lots=-1 ldd=-1 prc=39.24 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=43 lots=1 ldd=1 prc=68.30 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=44 lots=1 ldd=1 prc=1613.20 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=45 lots=-1 ldd=-1 prc=161.59 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=45 lots=1 ldd=1 prc=15172.00 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=46 lots=-1 ldd=-1 prc=0.7601 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=47 lots=1 ldd=1 prc=7282.50 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=47 lots=1 ldd=1 prc=7471.50 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=48 lots=-1 ldd=-1 prc=198.1 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=48 lots=-1 ldd=-1 prc=281.0 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=49 lots=1 ldd=1 prc=199.56 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=49 lots=1 ldd=1 prc=1409.00 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=50 lots=1 ldd=1 prc=11038.00 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=51 lots=1 ldd=1 prc=589.15 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=51 lots=1 ldd=1 prc=290.24 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=52 lots=1 ldd=1 prc=289.99 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=52 lots=-1 ldd=-1 prc=30.78 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=53 lots=1 ldd=1 prc=60.17 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=53 lots=1 ldd=1 prc=709.30 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=54 lots=1 ldd=1 prc=707.80 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=55 lots=-1 ldd=-1 prc=166850.0 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=55 lots=-1 ldd=-1 prc=0.024385 res=0.0 pct=0 ld=0 ld2=0
+Stop: date=15.02.2024 time=106 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440M1440-v3.3.4dub-indP-WORK-online.txt
+=========================================
+Start: date=16.02.2024 time=942 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440M1440-v3.3.4dub-indP-WORK-online.txt
+AFLT SELL time=1000 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=39.27 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1000 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=68.55 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1000 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=161.91 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1000 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.76 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1000 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=198.34 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1000 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=279.60 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1000 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=199.90 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1000 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=589.95 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1000 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=30.98 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1000 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=708.90 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1000 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=708.00 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1000 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1015 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1015 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1015 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1015 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1015 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1015 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1015 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1015 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1015 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1015 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1015 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1015 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1021 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1021 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1021 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1021 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1021 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1021 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1021 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1021 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1021 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1021 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1021 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1021 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1027 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1027 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1027 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1027 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1027 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1027 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1027 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1027 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1027 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1027 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1027 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1027 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1033 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1033 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1033 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1033 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1033 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1033 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1033 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1033 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1033 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1033 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1033 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1033 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1039 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1039 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1039 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1039 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1039 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1039 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1039 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1039 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1039 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1039 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1039 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1039 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1045 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1045 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1045 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1045 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1045 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1045 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1045 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1045 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1045 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1045 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1045 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1045 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1051 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1051 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1051 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1051 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1051 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1051 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1051 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1051 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1051 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1051 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1051 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1051 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1057 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1057 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1057 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1057 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1057 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1057 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1057 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1057 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1057 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1057 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1057 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1057 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1103 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1103 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1103 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1103 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1103 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1103 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1103 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1103 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1103 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1103 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1103 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1103 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1109 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1109 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1109 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1109 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1109 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1109 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1109 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1109 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1109 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1109 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1109 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1109 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1115 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1115 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1115 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1115 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1115 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1115 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1115 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1115 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1115 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1115 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1115 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1115 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1121 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1121 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1121 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1121 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1121 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1121 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1121 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1121 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1121 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1121 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1121 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1121 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1127 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1127 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1127 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1127 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1127 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1127 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1127 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1127 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1127 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1127 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1127 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1127 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1133 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1133 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1133 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1133 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1133 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1133 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1133 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1133 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1133 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1133 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1133 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1133 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1139 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1139 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1139 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1139 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1139 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1139 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1139 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1139 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1139 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1139 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1139 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1139 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1145 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1145 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1145 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1145 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1145 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1145 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1145 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1145 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1145 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1145 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1145 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1145 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1151 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1151 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1151 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1151 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1151 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1151 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1151 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1151 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1151 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1151 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1151 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1151 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+AFLT SELL time=1157 tn=5.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ALRS SELL time=1157 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+GAZP SELL time=1157 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+HYDR SELL time=1157 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MOEX SELL time=1157 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+MTSS SELL time=1157 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+NLMK BYE  time=1157 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+ROSN SELL time=1157 tn=3.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+SNGS SELL time=1157 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1157 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+TATNP BYE  time=1157 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+VTBR SELL time=1157 tn=8.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+Stop: date=16.02.2024 time=1203 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440M1440-v3.3.4dub-indP-WORK-online.txt

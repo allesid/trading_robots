@@ -1,0 +1,30 @@
+=========================================
+Start: date=13.02.2024 time=2032 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-8-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=2033 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-8-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=2041 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-8-WORK-online.txt
+Stop: date=13.02.2024 time=2139 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-8-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=2140 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-8-WORK-online.txt
+TATN SELL time=2147 lots=-1 ldd=-1 prc=713.3 res=0.0 pct=0
+=========================================
+Start: date=14.02.2024 time=843 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-8-WORK-online.txt
+ALRS BYE  time=1137 lots=1 ldd=1 prc=68.65 res=0.0 pct=0
+HYDR SELL time=1315 lots=-1 ldd=-1 prc=0.7647 res=0.0 pct=0
+HYDR BYE  time=1935 lots=2 ldd=1 prc=0.77 res=-0.00238235 pct=-0.31154047338825
+ALRS SELL time=2315 lots=-2 ldd=-1 prc=68.32 res=-0.36432500000001 pct=-0.53069919883468
+HYDR SELL time=2315 lots=-2 ldd=-1 prc=0.7652 res=-0.00464905 pct=-0.60718414105489
+NVTK SELL time=2315 lots=-1 ldd=-1 prc=1412.0 res=0.0 pct=0
+=========================================
+Start: date=15.02.2024 time=1023 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-8-WORK-online.txt
+ROSN SELL time=1115 lots=-1 ldd=-1 prc=588.8 res=0.0 pct=0
+Stop: date=15.02.2024 time=1123 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-8-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1216 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-8-WORK-online.txt
+Stop: date=15.02.2024 time=1402 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-8-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1536 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M120-v8dub-8-WORK-online.txt
+MTSS SELL time=1541 lots=-1 ldd=-1 prc=281.3 res=0.0 pct=0
+MOEX SELL time=1715 lots=-1 ldd=-1 prc=198.05 res=0.0 pct=0
+VTBR SELL time=2314 lots=-1 ldd=-1 prc=0.024385 res=0.0 pct=0

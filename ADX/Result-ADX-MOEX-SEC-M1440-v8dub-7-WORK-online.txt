@@ -1,0 +1,19 @@
+=========================================
+Start: date=13.02.2024 time=1338 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-7-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=2211 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-7-WORK-online.txt
+SBER BYE  time=2216 lots=1 ldd=1 prc=287.09 res=0.0 pct=0
+TATN BYE  time=2216 lots=1 ldd=1 prc=712.10 res=0.0 pct=0
+=========================================
+Start: date=14.02.2024 time=2105 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-7-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1109 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-7-WORK-online.txt
+Stop: date=15.02.2024 time=1117 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-7-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1216 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-7-WORK-online.txt
+Stop: date=15.02.2024 time=1358 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-7-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1537 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-7-WORK-online.txt
+Stop: date=15.02.2024 time=1537 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-7-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=2304 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-7-WORK-online.txt

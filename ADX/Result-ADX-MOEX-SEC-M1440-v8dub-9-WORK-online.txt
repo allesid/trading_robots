@@ -1,0 +1,18 @@
+=========================================
+Start: date=14.02.2024 time=2100 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-9-WORK-online.txt
+=========================================
+Start: date=14.02.2024 time=2101 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-9-WORK-online.txt
+Stop: date=14.02.2024 time=2209 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-9-WORK-online.txt
+=========================================
+Start: date=14.02.2024 time=2222 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-9-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1023 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-9-WORK-online.txt
+Stop: date=15.02.2024 time=1123 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-9-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1206 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-9-WORK-online.txt
+Stop: date=15.02.2024 time=1358 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-9-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=2307 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-9-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=13 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-9-WORK-online.txt
+Stop: date=15.02.2024 time=15 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440-v8dub-9-WORK-online.txt

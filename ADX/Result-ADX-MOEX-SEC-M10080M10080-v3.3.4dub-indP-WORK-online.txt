@@ -1,0 +1,65 @@
+=========================================
+Start: date=15.02.2024 time=38 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080M10080-v3.3.4dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=41 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080M10080-v3.3.4dub-indP-WORK-online.txt
+VTBR BYE  time=42 lots=1 ldd=1 prc=18.19 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=42 lots=1 ldd=1 prc=39.24 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=42 lots=-1 ldd=-1 prc=68.3 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=42 lots=-1 ldd=-1 prc=1613.2 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=42 lots=-1 ldd=-1 prc=161.59 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=43 lots=-1 ldd=-1 prc=15172.0 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=43 lots=-1 ldd=-1 prc=0.7601 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=43 lots=-1 ldd=-1 prc=7282.5 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=43 lots=1 ldd=1 prc=7471.50 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=43 lots=1 ldd=1 prc=198.10 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=44 lots=-1 ldd=-1 prc=281.0 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=44 lots=1 ldd=1 prc=199.56 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=44 lots=1 ldd=1 prc=1409.00 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=44 lots=1 ldd=1 prc=11038.00 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=44 lots=-1 ldd=-1 prc=589.15 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=45 lots=1 ldd=1 prc=290.24 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=45 lots=1 ldd=1 prc=289.99 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=45 lots=-1 ldd=-1 prc=30.78 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=45 lots=1 ldd=1 prc=60.17 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=46 lots=1 ldd=1 prc=709.30 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=46 lots=1 ldd=1 prc=707.80 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=46 lots=1 ldd=1 prc=166850.00 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=46 lots=1 ldd=1 prc=0.02 res=0.0 pct=0 ld=0 ld2=0
+Stop: date=15.02.2024 time=106 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080M10080-v3.3.4dub-indP-WORK-online.txt
+=========================================
+Start: date=16.02.2024 time=942 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080M10080-v3.3.4dub-indP-WORK-online.txt
+AFLT SELL time=1000 tn=5.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=0.02 res=0.0 pct=0 ld=0 ld2=0
+ALRS SELL time=1000 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=-1 ld2=-1
+CHMF SELL time=1000 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=0.02 res=0.0 pct=0 ld=0 ld2=0
+VTBR BYE  time=1000 lots=2 ldd=1 prc=161.98 res=-0.47079499999998 pct=-0.29135156878519 ld=0 ld2=-1
+VTBR BYE  time=1000 lots=2 ldd=1 prc=15190.00 res=-25.585999999999 pct=-0.16863959926179 ld=0 ld2=-1
+VTBR BYE  time=1000 lots=2 ldd=1 prc=0.76 res=-0.00098005000000001 pct=-0.12893698197606 ld=0 ld2=-1
+HYDR SELL time=1000 tn=2.0 Trvol=1 ld[sec]=1 lots=2 ldd=1 prc=0.76 res=-0.00098005000000001 pct=-0.12893698197606 ld=0 ld2=-1
+VTBR BYE  time=1000 lots=2 ldd=1 prc=280.70 res=0.15950000000004 pct=0.056761565836312 ld=1 ld2=0
+NLMK BYE  time=1000 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+ROSN SELL time=1000 tn=3.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+SNGS SELL time=1000 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=280.70 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1000 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+TATNP BYE  time=1000 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=1000 tn=8.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+AFLT SELL time=1000 tn=5.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+ALRS SELL time=1000 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=280.70 res=0.0 pct=0 ld=-1 ld2=-1
+CHMF SELL time=1000 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+HYDR SELL time=1000 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=-0.00098005000000001 pct=-0.12893698197606 ld=0 ld2=-1
+NLMK BYE  time=1000 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+ROSN SELL time=1000 tn=3.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+SNGS SELL time=1000 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=280.70 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1000 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+TATNP BYE  time=1000 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=1000 tn=8.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+AFLT SELL time=1042 tn=5.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+ALRS SELL time=1042 tn=2.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=280.70 res=0.0 pct=0 ld=-1 ld2=-1
+CHMF SELL time=1042 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+HYDR SELL time=1042 tn=2.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=-0.00098005000000001 pct=-0.12893698197606 ld=0 ld2=-1
+NLMK BYE  time=1042 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+ROSN SELL time=1042 tn=3.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+SNGS SELL time=1042 tn=1.0 Trvol=-1 ld[sec]=-1 lots=0 ldd=-1 prc=280.70 res=0.0 pct=0 ld=1 ld2=1
+TATN BYE  time=1042 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+TATNP BYE  time=1042 tn=0.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+VTBR SELL time=1042 tn=8.0 Trvol=1 ld[sec]=1 lots=0 ldd=1 prc=280.70 res=0.0 pct=0 ld=0 ld2=0
+Stop: date=16.02.2024 time=1124 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M10080M10080-v3.3.4dub-indP-WORK-online.txt

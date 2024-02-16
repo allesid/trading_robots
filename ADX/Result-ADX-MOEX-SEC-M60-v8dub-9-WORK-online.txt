@@ -1,0 +1,27 @@
+=========================================
+Start: date=14.02.2024 time=2054 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-9-WORK-online.txt
+=========================================
+Start: date=14.02.2024 time=2055 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-9-WORK-online.txt
+NVTK SELL time=2138 lots=-1 ldd=-1 prc=1414.8 res=0.0 pct=0
+TATN SELL time=2138 lots=-1 ldd=-1 prc=708.4 res=0.0 pct=0
+Stop: date=14.02.2024 time=2211 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-9-WORK-online.txt
+=========================================
+Start: date=14.02.2024 time=2222 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-9-WORK-online.txt
+MTSS BYE  time=2238 lots=1 ldd=1 prc=282.90 res=0.0 pct=0
+VTBR BYE  time=2338 lots=1 ldd=1 prc=0.02 res=0.0 pct=0
+=========================================
+Start: date=15.02.2024 time=1023 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-9-WORK-online.txt
+TATN BYE  time=1038 lots=1 ldd=0 prc=708.00 res=0.045799999999986 pct=0.0064652738565762
+VTBR SELL time=1038 lots=-1 ldd=0 prc=0.0244 res=-0.0001072475 pct=-0.43783425188813
+Stop: date=15.02.2024 time=1124 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-9-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1206 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-9-WORK-online.txt
+SNGS SELL time=1338 lots=-1 ldd=-1 prc=30.4 res=0.0 pct=0
+Stop: date=15.02.2024 time=1402 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-9-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1536 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-9-WORK-online.txt
+VTBR BYE  time=1638 lots=1 ldd=1 prc=0.02 res=-0.0001194475 pct=-0.43783425188813
+VTBR SELL time=1737 lots=-1 ldd=0 prc=0.024405 res=-0.0001866775 pct=-0.7126911611277
+TATNP SELL time=1937 lots=-1 ldd=-1 prc=707.4 res=0.0 pct=0
+TATNP BYE  time=2146 lots=1 ldd=0 prc=707.90 res=-0.8537 pct=-0.12068136839129
+TATNP SELL time=2337 lots=-1 ldd=-1 prc=707.8 res=-1.20765 pct=-0.12068136839129

@@ -1,0 +1,5 @@
+=========================================
+Start: date=12.02.2024 time=2121 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-4-WORK-online.txt
+=========================================
+Start: date=12.02.2024 time=2121 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-4-WORK-online.txt
+Stop: date=12.02.2024 time=2159 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v3.3.3dub-4-WORK-online.txt

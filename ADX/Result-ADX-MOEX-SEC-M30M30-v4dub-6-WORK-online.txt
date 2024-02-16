@@ -1,0 +1,17 @@
+=========================================
+Start: date=12.02.2024 time=2313 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v4dub-6-WORK-online.txt
+=========================================
+Start: date=12.02.2024 time=2313 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v4dub-6-WORK-online.txt
+Stop: date=12.02.2024 time=2313 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v4dub-6-WORK-online.txt
+=========================================
+Start: date=12.02.2024 time=2316 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v4dub-6-WORK-online.txt
+Stop: date=12.02.2024 time=2316 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v4dub-6-WORK-online.txt
+=========================================
+Start: date=12.02.2024 time=2324 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v4dub-6-WORK-online.txt
+Stop: date=12.02.2024 time=2324 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v4dub-6-WORK-online.txt
+=========================================
+Start: date=12.02.2024 time=2332 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v4dub-6-WORK-online.txt
+Stop: date=12.02.2024 time=2332 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v4dub-6-WORK-online.txt
+=========================================
+Start: date=12.02.2024 time=2333 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v4dub-6-WORK-online.txt
+Stop: date=12.02.2024 time=2333 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M30M30-v4dub-6-WORK-online.txt

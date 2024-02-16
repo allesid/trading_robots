@@ -1,0 +1,67 @@
+=========================================
+Start: date=22.01.2024 time=939 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=22.01.2024 time=940 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=22.01.2024 time=940 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=22.01.2024 time=945 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=22.01.2024 time=945 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=22.01.2024 time=951 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=22.01.2024 time=951 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=22.01.2024 time=959 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=22.01.2024 time=959 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=22.01.2024 time=1004 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=22.01.2024 time=1004 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=22.01.2024 time=1020 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=22.01.2024 time=1020 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=22.01.2024 time=1033 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=22.01.2024 time=1049 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=22.01.2024 time=1051 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=22.01.2024 time=1131 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=22.01.2024 time=1131 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=22.01.2024 time=1209 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=22.01.2024 time=1209 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=22.01.2024 time=1215 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=22.01.2024 time=1215 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=22.01.2024 time=1251 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=22.01.2024 time=1258 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=22.01.2024 time=1526 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=22.01.2024 time=1533 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=23.01.2024 time=942 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+USD000UTSTOM BYE  time=943 lots=1 ldd=1 prc=87.92 res=0.0 pct=0.0 ld=1 ld2=0
+USD000UTSTOM SELL time=1642 lots=-1 ldd=0 prc=88.21 res=0.24353875 pct=0.27608972905566 ld=0 ld2=1
+=========================================
+Start: date=24.01.2024 time=1020 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=24.01.2024 time=1302 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=24.01.2024 time=1445 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=24.01.2024 time=1448 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=24.01.2024 time=1506 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=25.01.2024 time=938 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+HKDRUB_TOM BYE  time=1730 lots=1 ldd=1 prc=9.79 res=0.0 pct=0.0 ld=1 ld2=0
+HKDRUB_TOM SELL time=1845 lots=-1 ldd=0 prc=9.739 res=-0.0508925 pct=-0.52256391826676 ld=0 ld2=0
+=========================================
+Start: date=26.01.2024 time=926 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=26.01.2024 time=1623 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=26.01.2024 time=1750 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=29.01.2024 time=1131 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=29.01.2024 time=1131 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+=========================================
+Start: date=29.01.2024 time=1246 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt
+Stop: date=29.01.2024 time=1246 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M60M6-v2.2.3dub-indP-TEST-online.txt

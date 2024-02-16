@@ -1,0 +1,17 @@
+=========================================
+Start: date=14.02.2024 time=1 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440M1440-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=14.02.2024 time=2 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440M1440-v3.3.3dub-indP-WORK-online.txt
+Stop: date=14.02.2024 time=12 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440M1440-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=952 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440M1440-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1019 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440M1440-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1123 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440M1440-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1152 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440M1440-v3.3.3dub-indP-WORK-online.txt
+Stop: date=15.02.2024 time=1401 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440M1440-v3.3.3dub-indP-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=2313 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M1440M1440-v3.3.3dub-indP-WORK-online.txt
+AFKS BYE  time=2323 lots=1 ldd=1 prc=18.18 res=0.0 pct=0 ld=0 ld2=-1
+ROSN BYE  time=2323 lots=1 ldd=1 prc=589.85 res=0.0 pct=0 ld=0 ld2=-1

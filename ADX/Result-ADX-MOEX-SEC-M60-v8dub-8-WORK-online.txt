@@ -1,0 +1,42 @@
+=========================================
+Start: date=13.02.2024 time=2324 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-8-WORK-online.txt
+=========================================
+Start: date=13.02.2024 time=2325 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-8-WORK-online.txt
+NVTK BYE  time=2338 lots=1 ldd=1 prc=1421.60 res=0.0 pct=0
+VTBR BYE  time=2338 lots=1 ldd=1 prc=0.02 res=0.0 pct=0
+=========================================
+Start: date=14.02.2024 time=843 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-8-WORK-online.txt
+HYDR SELL time=1138 lots=-1 ldd=-1 prc=0.7675 res=0.0 pct=0
+SNGS BYE  time=1338 lots=1 ldd=1 prc=30.82 res=0.0 pct=0
+SNGS SELL time=1538 lots=-2 ldd=-1 prc=30.615 res=-0.2254125 pct=-0.73126520681266
+VTBR SELL time=1557 lots=-2 ldd=-1 prc=0.024405 res=1.2809999999999e-05 pct=0.052543068088591
+MOEX SELL time=1738 lots=-1 ldd=-1 prc=198.91 res=0.0 pct=0
+VTBR BYE  time=1738 lots=2 ldd=1 prc=0.02 res=-0.000116595 pct=-0.47769663688991
+MTSS SELL time=1838 lots=-1 ldd=-1 prc=281.3 res=0.0 pct=0
+VTBR SELL time=1954 lots=-2 ldd=-1 prc=0.024435 res=-0.000216105 pct=-0.88369418890949
+MOEX BYE  time=2138 lots=2 ldd=1 prc=198.66 res=0.15054499999999 pct=0.075684983158209
+NVTK SELL time=2138 lots=-2 ldd=-1 prc=1415.0 res=-7.3108 pct=-0.51426561620709
+SBERP SELL time=2138 lots=-1 ldd=-1 prc=288.62 res=0.0 pct=0
+MTSS BYE  time=2238 lots=2 ldd=1 prc=282.90 res=-1.74065 pct=-0.61878777106291
+MOEX SELL time=2338 lots=-2 ldd=-1 prc=198.36 res=-0.34811499999998 pct=-0.17532679576053
+ROSN SELL time=2338 lots=-1 ldd=-1 prc=589.85 res=0.0 pct=0
+VTBR BYE  time=2338 lots=2 ldd=1 prc=0.02 res=-0.00030054000000001 pct=-1.2292436057296
+=========================================
+Start: date=15.02.2024 time=1023 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-8-WORK-online.txt
+ROSN BYE  time=1038 lots=2 ldd=1 prc=589.00 res=0.55507499999999 pct=0.094104433330506
+VTBR SELL time=1038 lots=-2 ldd=-1 prc=0.0244 res=-0.000420035 pct=-1.7170778576177
+Stop: date=15.02.2024 time=1124 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-8-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1216 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-8-WORK-online.txt
+Stop: date=15.02.2024 time=1402 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-8-WORK-online.txt
+=========================================
+Start: date=15.02.2024 time=1536 data_file_name=C:/QuikKITFinance/data/ADX/data-ADX-MOEX-SEC-M60-v8dub-8-WORK-online.txt
+TATNP BYE  time=1638 lots=1 ldd=1 prc=709.40 res=0.0 pct=0
+VTBR BYE  time=1638 lots=2 ldd=1 prc=0.02 res=-0.000504435 pct=-2.062979496962
+VTBR SELL time=1737 lots=-2 ldd=-1 prc=0.02441 res=-0.000578895 pct=-2.3673948689979
+TATNP SELL time=1937 lots=-2 ldd=-1 prc=707.4 res=-2.3547 pct=-0.33192839018889
+CHMF BYE  time=2036 lots=1 ldd=1 prc=1614.40 res=0.0 pct=0
+CHMF SELL time=2143 lots=-2 ldd=-1 prc=1610.6 res=-4.6072000000001 pct=-0.28538156590685
+TATNP BYE  time=2146 lots=2 ldd=1 prc=707.90 res=-3.5621 pct=-0.50260975858018
+CHMF BYE  time=2337 lots=2 ldd=1 prc=1612.20 res=-7.8178000000003 pct=-0.48472342608319
+TATNP SELL time=2337 lots=-2 ldd=-1 prc=707.8 res=-4.37 pct=-0.61673604760406

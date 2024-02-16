@@ -1,0 +1,63 @@
+=========================================
+Start: date=30.01.2024 time=1607 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=30.01.2024 time=1608 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+USD000UTSTOM BYE  time=1624 lots=1 ldd=1 prc=89.55 res=0.0 pct=0 ld=1 ld2=0
+CNYRUB_TOM BYE  time=1624 lots=1 ldd=1 prc=12.43 res=0.0 pct=0 ld=1 ld2=0
+HKDRUB_TOM BYE  time=1711 lots=1 ldd=1 prc=10.06 res=0.0 pct=0 ld=1 ld2=0
+EUR_RUB__TOM BYE  time=1720 lots=1 ldd=1 prc=97.41 res=0.0 pct=0 ld=1 ld2=0
+=========================================
+Start: date=31.01.2024 time=801 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+USD000UTSTOM SELL time=1735 lots=-1 ldd=0 prc=89.855 res=0.25772375000001 pct=0.28779068144386 ld=0 ld2=1
+=========================================
+Start: date=31.01.2024 time=932 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+USD000UTSTOM BYE  time=935 lots=1 ldd=1 prc=89.72 res=0.21279625000001 pct=0.28779068144386 ld=1 ld2=0
+=========================================
+Start: date=02.02.2024 time=933 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=05.02.2024 time=711 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+EUR_RUB__TOM SELL time=1107 lots=-1 ldd=0 prc=98.55 res=1.091295 pct=1.1203110563597 ld=0 ld2=1
+=========================================
+Start: date=06.02.2024 time=847 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+EUR_RUB__TOM BYE  time=928 lots=1 ldd=1 prc=97.38 res=1.04202 pct=1.1203110563597 ld=1 ld2=0
+CNYRUB_TOM SELL time=1211 lots=-1 ldd=0 prc=12.586 res=0.14628325 pct=1.1765251136044 ld=0 ld2=1
+CNYRUB_TOM BYE  time=1300 lots=1 ldd=1 prc=12.61 res=0.13999025 pct=1.1765251136044 ld=1 ld2=0
+=========================================
+Start: date=07.02.2024 time=944 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+CNYRUB_TOM SELL time=1201 lots=-1 ldd=0 prc=12.6605 res=0.1826845 pct=1.5150593878779 ld=0 ld2=1
+Stop: date=07.02.2024 time=1219 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=07.02.2024 time=1225 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+CNYRUB_TOM BYE  time=1400 lots=1 ldd=1 prc=12.66 res=0.17635425 pct=1.5150593878779 ld=1 ld2=0
+HKDRUB_TOM SELL time=1631 lots=-1 ldd=0 prc=10.49 res=0.420968 pct=4.1829093799682 ld=0 ld2=1
+=========================================
+Start: date=08.02.2024 time=854 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=09.02.2024 time=938 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+HKDRUB_TOM BYE  time=941 lots=1 ldd=1 prc=10.61 res=0.415723 pct=4.1829093799682 ld=1 ld2=0
+CNYRUB_TOM SELL time=1655 lots=-1 ldd=0 prc=12.5435 res=0.057026 pct=0.57223751769262 ld=0 ld2=1
+CNYRUB_TOM BYE  time=1729 lots=1 ldd=1 prc=12.56 res=0.05075425 pct=0.57223751769262 ld=1 ld2=0
+=========================================
+Start: date=12.02.2024 time=940 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=13.02.2024 time=939 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+CNYRUB_TOM SELL time=1739 lots=-1 ldd=0 prc=12.5545 res=0.041975750000001 pct=0.50232830370839 ld=0 ld2=1
+CNYRUB_TOM BYE  time=1834 lots=1 ldd=1 prc=12.56 res=0.035698500000001 pct=0.50232830370839 ld=1 ld2=0
+=========================================
+Start: date=14.02.2024 time=808 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+EUR_RUB__TOM SELL time=1357 lots=-1 ldd=0 prc=97.7775 res=1.39333125 pct=1.4810835654095 ld=0 ld2=1
+CNYRUB_TOM SELL time=1408 lots=-1 ldd=0 prc=12.578 res=0.050419999999999 pct=0.61956570117592 ld=0 ld2=1
+EUR_RUB__TOM BYE  time=1637 lots=1 ldd=1 prc=97.80 res=1.3444425 pct=1.4810835654095 ld=1 ld2=0
+CNYRUB_TOM BYE  time=1640 lots=1 ldd=1 prc=12.59 res=0.044130999999999 pct=0.61956570117592 ld=1 ld2=0
+USD000UTSTOM SELL time=1807 lots=-1 ldd=0 prc=91.59 res=2.03793625 pct=2.3220528303516 ld=0 ld2=1
+=========================================
+Start: date=14.02.2024 time=2207 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+Stop: date=14.02.2024 time=2207 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=15.02.2024 time=949 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=15.02.2024 time=951 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+=========================================
+Start: date=16.02.2024 time=940 data_file_name=C:/QuikKITFinance/data/ADX/CETS/data-ADX-CURR-M30M30-v3.3.3dub-indP-TEST-online.txt
+USD000UTSTOM BYE  time=1035 lots=1 ldd=1 prc=92.32 res=1.99214125 pct=2.3220528303516 ld=1 ld2=0
+HKDRUB_TOM SELL time=1148 lots=-1 ldd=0 prc=10.568 res=0.364416 pct=3.6995195175224 ld=0 ld2=1
